@@ -1,0 +1,28 @@
+
+<section>
+    <div id="profile_slide">
+        <div class="profile_container">
+            <div class="profile-form">
+                <h4>Profile:</h4>
+                <h2>Account Details:</h2>
+
+                <p>
+                    username: {{ user.username }}
+                </p>
+                <p>
+                    email: {{ user.email }}
+                </p>
+                <h2>Lessons Viewed:</h2>
+                    <ul class="users_lessons_viewed">
+                        <li class="group" ng-repeat="lesson in user.lessons_viewed">
+                            <p class="profile_lesson_title" ng-repeat="vid in videos">
+                                <a ng-if="lesson.video_id == vid._id" href="home#!/videos/{{vid._id}}">{{vid.video.title}}</a>
+                            </p>
+                            <p class="profile_lesson_views"><span>Times Visited: </span>{{lesson.views}}</p>
+                            <p class="profile_lesson_views"><span>Times Watched Completely: </span>{{lesson.complete_views}}</p>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+</section>

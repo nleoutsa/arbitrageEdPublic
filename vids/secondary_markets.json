@@ -1,0 +1,127 @@
+{
+    "video": {
+        "id": "secondary_markets",
+        "title": "Secondary Markets",
+        "videoUrl": "https://www.youtube.com/embed/b0Me5SY3V88",
+        "videoThumbnail": "http://img.youtube.com/vi/b0Me5SY3V88/2.jpg",
+        "playlist": "Business Finances",
+        "description": "What happens after an Initial Public Offering?"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is a secondary market?",
+            "choices": [
+                {"alpha":"a","answer": "A market where investors purchase from other investors, rather than from the issuing companies"},
+                {"alpha":"b","answer": "The part of the capital market that deals with issuing new securities"},
+                {"alpha":"c","answer": "Both a & b"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Will a company receive money if you buy their shares in the secondary market?",
+            "choices": [
+                {"alpha":"a","answer":"Yes, every time you buy stock the company gets a portion of the amount paid."},
+                {"alpha":"b","answer":"Yes, everything goes to the company whose stock you paid for."},
+                {"alpha":"c","answer":"No, they don’t receive anything, because companies only make money when they directly sell shares."}
+
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is a retail investor?",
+            "choices": [
+                {"alpha":"a","answer": "Someone who only invests in the retail industry (e.g. clothing)"},
+                {"alpha":"b","answer": "A retail investor (also known as an “individual investor”), is an individual that invests for their own personal account rather than for an organization."},
+                {"alpha":"c","answer": "A large organization (e.g. banks, pension fund’s, labor union’s, etc.) that makes substantial investments on the stock exchange."}
+
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is an institutional investor?",
+            "choices": [
+                {"alpha":"a","answer": "Any public company"},
+                {"alpha":"b","answer": "A large organization (e.g. banks, pension fund’s, labor union’s, etc.) that makes substantial investments on the stock exchange."},
+                {"alpha":"c","answer": "Only the government is an institutional investor"},
+                {"alpha":"d","answer": "Every investor is an institutional investor"}
+
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Who facilitates stock orders?",
+            "choices": [
+                {"alpha":"a","answer": "Market makers"},
+                {"alpha":"b","answer": "Stock brokers"},
+                {"alpha":"c","answer": "The company whose shares are being traded"},
+                {"alpha":"d","answer": "Financial advisers"},
+                {"alpha":"e","answer": "A and B"},
+                {"alpha":"f","answer": "B and D"},
+                {"alpha":"g","answer": "C and D"}
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Example:",
+            "url_text": "Secondary Market (Ebay)",
+            "url": "http://www.ebay.com/"
+        },
+        {
+            "text": "Example:",
+            "url_text": "Secondary Market (Craigslist)",
+            "url": "https://www.craigslist.org/about/sites"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Google Finance",
+            "url": "https://www.google.com/finance"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Secondary Market (short)",
+            "url": "http://www.investopedia.com/terms/s/secondarymarket.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Secondary Market (long)",
+            "url": "https://en.wikipedia.org/wiki/Secondary_market "
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Bid",
+            "url": "http://www.investopedia.com/terms/b/bid.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Offer",
+            "url": "http://www.investopedia.com/terms/o/offer.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Stock Broker (short)",
+            "url": "http://www.investopedia.com/terms/s/stockbroker.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Stock Broker (long)",
+            "url": "https://en.wikipedia.org/wiki/Stockbroker"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Market Maker",
+            "url": "http://www.investopedia.com/terms/m/marketmaker.asp"
+        }
+    ]
+}

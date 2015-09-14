@@ -1,0 +1,94 @@
+{
+    "video": {
+        "id": "securities",
+        "title": "Securities",
+        "videoUrl": "https://www.youtube.com/embed/Mmp1MscIfyo",
+        "videoThumbnail": "http://img.youtube.com/vi/Mmp1MscIfyo/2.jpg",
+        "playlist": "Business Finances",
+        "description": "What are stocks, bonds and derivatives, and how do they work?"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What are financial securities?",
+            "choices": [
+                {"alpha":"a","answer": "A certificate of ownership for a specified portion of debt due to be paid to the holder, which usually bares a fixed rate of interest."},
+                {"alpha":"b","answer": "The money raised by a business through the issuance and subscription of shares."},
+                {"alpha":"c","answer": "A certificate that acts as proof of credit, ownership of stocks or bonds, or rights to ownership connected with tradable derivatives."},
+                {"alpha":"d","answer": "A certificate whose price depends on, or is derived from, one or more underlying asset."}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Are stockholders part-owners of the company whose stock they own?",
+            "choices": [
+                {"alpha":"a","answer": "Yes"},
+                {"alpha":"b","answer": "No"}
+
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is a dividend?",
+            "choices": [
+                {"alpha":"a","answer": "A sum of money paid to shareholders from a company's profits"},
+                {"alpha":"b","answer": "When stock is divided so that every share becomes two shares"},
+                {"alpha":"c","answer": "The bonus paid to a company’s top executives"},
+                {"alpha":"d","answer": "A sum of money paid to debtholders from a company's sales"}
+
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "You own _x shares of a company, and that company issues a _y dividend per share. How much are you paid through dividends?",
+            "variables": {"_x":[1000,100000,"i", "y"],"_y":[0.01,1.50,"f", "c"]},
+            "answer": "_x * _y",
+            "hint": ["Dividend payment = number of shares * dividend per share"]
+        },
+        {
+            "radio": false,
+            "question": "Based on our example, if you purchased a bond for _y and have a coupon rate of _x, how much will each coupon payment be worth?",
+            "variables": {"_x":[1,15,"f", "p"], "_y":[100,10000,"i", "c"]},
+            "answer": "_y * (_x / 100)",
+            "hint": ["Coupon payment = cost of bond * (coupon rate / 100)"]
+        }
+    ],
+    "links": [
+        {
+            "text": "Research:",
+            "url_text": "Securities",
+            "url": "https://www.bogleheads.org/wiki/Financial_securities"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Securities",
+            "url": "http://www.investopedia.com/terms/s/security.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Bond",
+            "url": "http://www.investopedia.com/terms/b/bond.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Coupon",
+            "url": "http://www.investopedia.com/terms/c/coupon.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Principal",
+            "url": "http://www.investopedia.com/terms/p/principal.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Dividend",
+            "url": "http://www.investopedia.com/terms/d/dividend.asp"
+        }
+    ]
+}

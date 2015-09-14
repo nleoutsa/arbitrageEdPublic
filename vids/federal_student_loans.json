@@ -1,0 +1,266 @@
+{
+    "video": {
+        "id": "federal_student_loans",
+        "title": "Federal Student Loan",
+        "youtube_id": "AM7X-4uzk0k",
+        "videoUrl": "http://www.youtube.com/embed/AM7X-4uzk0k?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/AM7X-4uzk0k/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Find out what your federal student loan options are and the basics of each.
+More detailed information on each option is available in separate videos."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What types of financial aid are commonly available?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Scholarships"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Bank loans"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Grants"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "School subsidies"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "c & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a, b, & c"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "a, c, & d"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "All of the options"
+                }
+            ],
+            "answer": "h",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which of the following are types of available federal student loans?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Federal Perkins"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Subsidized Federal Stafford"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Direct Subsidized"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Direct PLUS"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "Federal PLUS"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "Direct Unsubsidized"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "Unsubsidized Federal Stafford"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "a, b, d, g"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "a, c, d, f"
+                },
+                {
+                    "alpha": "j",
+                    "answer": "a, b, c, d, f, g"
+                },
+                {
+                    "alpha": "k",
+                    "answer": "All of the options"
+                },
+                {
+                    "alpha": "l",
+                    "answer": "None of the options"
+                }
+            ],
+            "answer": "i",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What do subsidized loans offer that’s unique?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Government pays the interest during specific periods"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Government pays off your interest and principal"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Your loan is fully paid for by your school"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "a & c"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "b & c"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When can you benefit from a government subsidy on your subsidized loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "While enrolled half-time or more"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "During the grace period"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "During an authorized deferment"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above: these subsidies do not apply"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If you don’t defer repayments, when must you repay your unsubsidized loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Once the final disbursement has been made (immediately)"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Upon graduation"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Once you enroll at least half-time in a qualifying post-secondary educational institution"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Once you are employed after graduation"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "Five years after enrollment"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which equation represents the maximum amount you can borrow through any federal student loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "(Cost of Attendance) - (Financial Aid Received)"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "(Amount Applied for) - (Financial Aid Received)"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "(Amount Applied for) - (Cost of Attendance)"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "(Cost of Attendance) - (Amount Applied for)"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Finding Scholarships",
+            "url": "https://studentaid.ed.gov/sa/types/grants-scholarships/finding-scholarships#types"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Federal Grants",
+            "url": "https://studentaid.ed.gov/sa/types/grants-scholarships"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Types of Loans, Interest Rates, and Fees",
+            "url": "https://studentaid.ed.gov/sa/types/loans/interest-rates"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "FAFSA Application",
+            "url": "https://fafsa.ed.gov/"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Basic Eligibility Criteria",
+            "url": "https://studentaid.ed.gov/sa/sites/default/files/FSA-Eligibility-11.16.12.png"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Scholarship: A sum of money or other aid granted to a student, because of merit, need, etc., to pursue his or her studies.",
+            "url": "http://dictionary.reference.com/browse/scholarship"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Grant [Google.com]: A sum of money given by an organization, especially a government, for a particular purpose.",
+            "url": ""
+        }
+    ]
+}

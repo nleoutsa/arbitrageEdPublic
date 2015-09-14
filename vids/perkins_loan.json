@@ -1,0 +1,232 @@
+{
+    "video": {
+        "id": "perkins_loan",
+        "title": "Perkins Loan",
+        "youtube_id": "QZgSQWwF_F8",
+        "videoUrl": "http://www.youtube.com/embed/QZgSQWwF_F8?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/QZgSQWwF_F8/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn about how federal Perkins Loans can help you."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Why are Perkins Loans generally referred to as the best student loan option?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Perkins Loans are government subsidized"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Perkins Loans allow for a 9-month grace period"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Perkins Loans do not have any fees"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Perkins Loans allow you to pay back only have the amount you borrowed"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b, c, & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a, b, & c"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "All of the options"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "None of the options"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which of the following is not relevant to your eligibility?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Show financial need"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Creditworthiness"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Attend school half-time or more"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Type of student (undergraduate, graduate, professional degree)"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When does StudentAid.gov recomend you apply for a student loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "As soon as possible"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Anytime"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Before the deadline"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "StudentAid.gov does not recommend you apply for a student loan"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When does the government not subsidize your loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "During grace period"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "While enrolled half-time or more"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Whenever you request it"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "During deferment"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above situations, the government always subsidizes your loan"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "All of these situations, the government never subsidizes your loan"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "The borrowing limit is determined by: need, financial aid received, availability, year in school (i.e. freshman, sophomore, etc.)",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Need"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Financial Aid received"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Amount of available funding"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Which year of school you are in (i.e. freshman/sophomore/junior/senior)"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & c"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a, b, & c"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "b, c, & d"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "All of the options"
+                },
+                {
+                    "alpha": "j",
+                    "answer": "None of the options"
+                }
+            ],
+            "answer": "i",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Research:",
+            "url_text": "Perkins Loan",
+            "url": "https://studentaid.ed.gov/sa/types/loans/perkins"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Find Loan Fees Here",
+            "url": "https://studentaid.ed.gov/sa/types/loans/interest-rates"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Basic Eligibility Criteria",
+            "url": "https://studentaid.ed.gov/sa/sites/default/files/FSA-Eligibility-11.16.12.png"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Repayment Estimator",
+            "url": "https://studentloans.gov/myDirectLoan/mobile/repayment/repaymentEstimator.action"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Subsidized Loan [StudentAid.Gov]: A loan based on financial need for which the federal government pays the interest that accrues while the borrower is in an in-school, grace, or deferment status. For Direct Subsidized Loans first disbursed between July 1, 2012, and July 1, 2014, the borrower will be responsible for paying any interest that accrues during the grace period. If the interest is not paid during the grace period, the interest will be added to the loan’s principal balance. An “in-school” is a school enrolled in the Federal Perkins Loan Program and/or William D. Ford Federal Direct Loan Program. These are federal programs which offer student loans.",
+            "url": ""
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Grace Period [StudentAid.Gov]: A period of time after borrowers graduate, leave school, or drop below half-time enrollment where they are not required to make payments on certain federal student loans. Some federal student loans will accrue interest during the grace period, and if the interest is unpaid, it will be added to the principal balance of the loan when the repayment period begins.",
+            "url": ""
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Financial Need [StudentAid.Gov]: The difference between the cost of attendance (COA) at a school and your Expected Family Contribution (EFC).  While COA varies from school to school, your EFC does not change based on the school you attend.",
+            "url": ""
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Enrollment Status [StudentAid.Gov]: Reported by the school the student attended, indicates whether the student is (or was) full-time, three-quarter time, half-time, less than half-time, withdrawn, graduated, etc.",
+            "url": ""
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Deferment [StudentAid.Gov]: A postponement of payment on a loan that is allowed under certain conditions and during which interest does not accrue on Direct Subsidized Loans, Subsidized Federal Stafford Loans, and Federal Perkins Loans. All other federal student loans that are deferred will continue to accrue interest. Any unpaid interest that accrued during the deferment period may be added to the principal balance (capitalized) of the loan(s).",
+            "url": ""
+        }
+    ]
+}

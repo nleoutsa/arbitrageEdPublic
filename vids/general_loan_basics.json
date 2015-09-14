@@ -1,0 +1,238 @@
+{
+    "video": {
+        "id": "general_loan_basics",
+        "title": "General Loan Basics",
+        "youtube_id": "TCEjEc5Igsg",
+        "videoUrl": "http://www.youtube.com/embed/TCEjEc5Igsg?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/TCEjEc5Igsg/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Here we try to relay how loans work and their significance."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Who or what is the loan principal?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The person at the bank who extends the loan offer"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The borrower"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The average monthly payment"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "The amount of money borrowed"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "The total, cumulative interest paid minus the amount borrowed"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "True or False: A loan is an exchange of the principal for the future payment.",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "True"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "False"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which of the following are a part of the terms of a loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Length of time for repayment"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Interest rate"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Principal"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Additional fees"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "A loan is an asset for the lender. Why?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "There will definitely be repayment of all the principal plus profit from interest"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "It represent a series of future payments"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Both"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Neither"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the purpose of interest on a loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "To compensate the lender for not being able to use the principal"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "To incentivize lending"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "To make it more difficult for the borrower to repay, which enables the lender to make more money through additional fees"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "All of the options"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "None of the options"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "True or False: Longer repayment schedules result in higher interest rates than shorter schedules, with all else being equal.",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "True "
+                },
+                {
+                    "alpha": "b",
+                    "answer": "False"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the purpose of the lender requesting collateral?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "In a case where the borrower defaults, the lender can seize the collateral as compensation for the lost principal"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "To incentivize timely repayment"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "To lower interest rates"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {   "type": "research",
+            "text": "Research:",
+            "url_text": "",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Loan",
+            "url": "http://www.investopedia.com/terms/l/loan.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Principal [Google]: A sum of money lent or invested on which interest is paid.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Interest",
+            "url": "http://www.investopedia.com/terms/i/interest.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Open-End Credit",
+            "url": "http://www.investopedia.com/terms/o/openendcredit.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Creditworthiness",
+            "url": "http://financial-dictionary.thefreedictionary.com/Creditworthiness"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Collateral",
+            "url": "http://www.investopedia.com/terms/c/collateral.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Asset [Google]: Property owned by a person or company, regarded as having value and available to meet debts, commitments, or legacies.",
+            "url": ""
+        }
+    ]
+}

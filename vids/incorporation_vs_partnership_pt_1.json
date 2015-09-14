@@ -1,0 +1,117 @@
+{
+    "video": {
+        "id": "incorporation_vs_partnership_pt_1",
+        "title": "Incorporation Vs. Partnership Pt.1",
+        "videoUrl": "https://www.youtube.com/embed/ykIXuMa6g5U",
+        "videoThumbnail": "http://img.youtube.com/vi/ykIXuMa6g5U/2.jpg",
+        "playlist": "Business Finances",
+        "description": "How different types of company's deal with liabilities. (Part 1 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "How many owners can a sole-proprietorship have?",
+            "choices": [
+                {"alpha":"a", "answer":"One"},
+                {"alpha":"b", "answer":"Zero"},
+                {"alpha":"c", "answer":"More than one"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How many owners can a general partnership have?",
+            "choices": [
+                {"alpha":"a","answer":"One"},
+                {"alpha":"b","answer":"Zero"},
+                {"alpha":"c","answer":"More than one"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How many owners can a Limited Liability Company (LLC) have?",
+            "choices": [
+                {"alpha":"a","answer":"One"},
+                {"alpha":"b","answer":"Zero"},
+                {"alpha":"c","answer":"More than one"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Do all owners of either a general partnership or Limited Liability Company (LLC) need to have an equal ownership of their company?",
+            "choices": [
+                {"alpha":"a","answer":"Yes, they must have equal ownership"},
+                {"alpha":"b","answer":"LLC’s can have unequal ownership, but general partnerships cannot"},
+                {"alpha":"c","answer":"General partnerships can have unequal ownership, but LLC’s cannot"},
+                {"alpha":"d","answer":"No, there can be unequal ownership"}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If a sole-proprietorship doesn’t pay its debts, creditors can only seize:",
+            "choices": [
+                {"alpha":"a", "answer":"Personal assets"},
+                {"alpha":"b", "answer":"Business Assets"},
+                {"alpha":"c", "answer":"Personal assets and business assets"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If a general partnership doesn’t pay its debts, creditors can only seize:",
+            "choices": [
+                {"alpha":"a", "answer":"Personal assets"},
+                {"alpha":"b", "answer":"Business Assets"},
+                {"alpha":"c", "answer":"Personal assets and business assets"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If a Limited Liability Company (LLC) doesn’t pay its debts, creditors can only seize:",
+            "choices": [
+                {"alpha":"a", "answer":"Personal assets"},
+                {"alpha":"b", "answer":"Business Assets"},
+                {"alpha":"c", "answer":"Personal assets and business assets"}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Research:",
+            "url_text": "U.S. Small Business Administration: Business Structures",
+            "url": "https://www.sba.gov/category/navigation-structure/starting-managing-business/starting-business/choose-your-business-stru"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Benifit Corporations",
+            "url": "http://benefitcorp.net/quick-faqs"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Corporation",
+            "url": "http://www.investopedia.com/terms/c/corporation.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Partnership",
+            "url": "http://www.investopedia.com/terms/p/partnership.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Limited Liability Company (LLC)",
+            "url": "http://www.investopedia.com/terms/l/llc.asp"
+        }
+    ]
+}

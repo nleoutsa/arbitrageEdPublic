@@ -1,0 +1,105 @@
+{
+    "video": {
+        "id": "what_happens_when_you_buy_stock_pt1",
+        "title": "What Happens When You Buy Stock Pt.1",
+        "videoUrl": "https://www.youtube.com/embed/vPJ-uxep318",
+        "videoThumbnail": "http://img.youtube.com/vi/vPJ-uxep318/2.jpg",
+        "playlist": "Business Finances",
+        "description": "What actually happens when you buy a stock. (Part 1 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "When you see a live stock chart, what are the prices being shown?",
+            "choices": [
+                {"alpha":"a","answer":"The current price of one share"},
+                {"alpha":"b","answer":"The price of the next trade for one share"},
+                {"alpha":"c","answer":"The price of the last trade"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Who must you contact to buy and sell your stock?",
+            "choices": [
+                {"alpha":"a","answer":"Stock broker"},
+                {"alpha":"b","answer":"Financial adviser"},
+                {"alpha":"c","answer":"Bank manager"},
+                {"alpha":"d","answer":"All of the above"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which of the following is correct?",
+            "choices": [
+                {"alpha":"a","answer":"Market orders are for time sensitive orders"},
+                {"alpha":"b","answer":"Market orders are for price sensitive orders"},
+                {"alpha":"c","answer":"Limit orders are for time sensitive orders"},
+                {"alpha":"d","answer":"Limit orders are for price sensitive orders"},
+                {"alpha":"e","answer":"A and D"},
+                {"alpha":"f","answer":"B and C"}
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "Let’s say you want to purchase 651 shares of Company XYZ through a market order. Your broker receives the following information from the market makers at the exchange: Market maker 1 has 326 shares and is willing to sell them at _x. Market maker 2 has 125 shares and is willing to sell them at _y. Market maker 3 has 600 shares and is willing to sell them at _z. How much will you have spent purchasing those shares, before paying commissions to your stock broker?",
+            "variables": {"_x":[20,21,"f","c"],"_y":[22,23,"f", "c"],"_z":[24,26,"f", "c"]},
+            "answer": "(326 * _x) + (125 * _y) + (200 * _z)",
+            "hint": [
+                "Number of shares to be bought from each : {651 - 326 = 325 (Purchase 326 from Market Maker 1), 325 - 125 = 200 (Purchase 125 from Market Maker 2), 200 - 200 = 0 (Purchase 200 from Market Maker 3) }",
+                "Amount Spent = 326 * cost per share from Market Maker 1 + 125 * cost per share from Market Maker 2 + 200 * cost per share from Market Maker 3"
+            ]
+        },
+        {
+            "radio": false,
+            "question": "Let’s say you want to purchase 832 shares of Company XYZ through a market order. Your broker receives the following information from the market makers at the exchange: Market maker 1 has 275 shares and is willing to sell them at _x. Market maker 2 has 350 shares and is willing to sell them at _y. Market maker 3 has 1000 shares and is willing to sell them at _z. What value did you pay per-share, before paying commissions to your stock broker? ",
+            "variables": {"_x":[33,34,"f","c"],"_y":[35,36,"f", "c"],"_z":[37,39,"f", "c"]},
+            "answer": "((275 * _x) + (350 * _y) + (207 * _z))/832",
+            "hint": [
+                "Number of shares to be bought from each : {832 - 275 = 557 (Purchase 275 from Market Maker 1), 557 - 350 = 207 (Purchase 350 from Market Maker 2), 207 - 207 = 0 (Purchase 207 from Market Maker 3) }",
+                "Amount Spent = 275 * cost per share from Market Maker 1 + 350 * cost per share from Market Maker 2 + 207 * cost per share from Market Maker 3",
+                "Price Per Share = Amount Spent / number of shares"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "Let’s say you want to purchase 500 shares of Company XYZ through a market order. Your broker receives the following information from the market makers at the exchange: Market maker 1 has 200 shares and is willing to sell them at $17.56. Market maker 2 has 500 shares and is willing to sell them at $17.63. Market maker 3 has 150 shares and is willing to sell them at $17.80. Which market makers will be involved in the transaction?",
+            "choices": [
+                {"alpha":"a","answer":"Only Market Maker 1"},
+                {"alpha":"b","answer":"Market Makers 1 and 2"},
+                {"alpha":"c","answer":"Market Makers 2 and 3"},
+                {"alpha":"d","answer":"Only Market Maker 3"},
+                {"alpha":"e","answer":"Market Makers 1, 2, and 3"}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Market Order",
+            "url": "http://www.investopedia.com/terms/m/marketorder.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Limit Order",
+            "url": "http://www.investopedia.com/terms/l/limitorder.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Commision",
+            "url": "http://www.investopedia.com/terms/c/commission.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Buy",
+            "url": "http://www.investopedia.com/terms/b/buy.asp"
+        }
+    ]
+}

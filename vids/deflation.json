@@ -1,0 +1,57 @@
+{
+    "video": {
+        "id": "deflation",
+        "title": "Deflation",
+        "videoUrl": "https://www.youtube.com/embed/FPh6EDv0Eew",
+        "videoThumbnail": "http://img.youtube.com/vi/FPh6EDv0Eew/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Basics of deflation."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is Deflation?",
+            "choices": [
+                {"alpha":"a","answer": "Negative inflation."},
+                {"alpha":"b","answer": "A decrease in inflation."},
+                {"alpha":"c","answer": "A & B"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "If an item from the basket of goods and services is worth _x in _A and _y in _B, what is the rate of deflation?",
+            "variables": {"_x":[20000,25000,"i", "c"],"_y":[15001,20000,"i", "c"],"_A":[1950,1989,"i", "y"],"_B":[1990,2015,"i", "y"]},
+            "answer": "(_y - _x) / _x",
+            "hint": [
+                "For negative answers, you must include a zero before the decimal point, for example: -0.12",
+                "\\( Rate \\: of \\: Deflation \\: = \\: {{amount \\: in \\: later \\: year \\: - \\: amount \\: in \\: earlier \\: year} \\over amount \\: in \\: earlier \\: year} \\)"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "Give an example of a deflationary item.",
+            "choices": [
+                {"alpha":"a","answer": "After a computer is released, its price decreases."},
+                {"alpha":"b","answer": "When cars are driven off of the dealer's lot, the price immediately decreases."},
+                {"alpha":"c","answer": "The price for 1 ton (2000 LBS) of steel is the same as three years ago."},
+                {"alpha":"d","answer": "A painting is worth more ten years after it’s creation."},
+                {"alpha":"e","answer": "A & C"},
+                {"alpha":"f","answer": "B & C"},
+                {"alpha":"g","answer": "C & D"},
+                {"alpha":"h","answer": "A & B"}
+
+            ],
+            "answer": "h",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Deflation",
+            "url": "http://www.investopedia.com/terms/d/deflation.asp"
+        }
+    ]
+}

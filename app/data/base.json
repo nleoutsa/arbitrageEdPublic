@@ -1,0 +1,53 @@
+{
+    "video": {
+        "id": "",
+        "title": "",
+        "youtube_id": "B_sXvhap0X4",
+        "videoUrl": "http://www.youtube.com/embed/B_sXvhap0X4?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/B_sXvhap0X4/2.jpg",
+        "playlist": "Student Loans",
+        "description": ""
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": ""
+                },
+                {
+                    "alpha": "b",
+                    "answer": ""
+                },
+                {
+                    "alpha": "c",
+                    "answer": ""
+                },
+                {
+                    "alpha": "d",
+                    "answer": ""
+                },
+                {
+                    "alpha": "e",
+                    "answer": ""
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Research:",
+            "url_text": "",
+            "url": ""
+        },
+        {
+            "text": "Definition:",
+            "url_text": "",
+            "url": ""
+        }
+    ]
+}

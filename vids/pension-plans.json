@@ -1,0 +1,299 @@
+{
+    "video": {
+        "id": "pension-plans",
+        "title": "Pension Plans",
+        "videoUrl": "https://www.youtube.com/embed/zPkGgLe8TY8",
+        "videoThumbnail": "http://img.youtube.com/vi/zPkGgLe8TY8/2.jpg",
+        "playlist": "Personal Finances",
+        "description": ""
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Which of the following is not an example of a tax advantage?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Exemption"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Postponement"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Deferral"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Are pension distributions necessarily fixed payments received from former employers?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Yes"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "No"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How do defined benefit plans pay during retirement?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Fixed payments from your employer"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Fixed payments from your bank account"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "You can withdraw anytime"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "Calculate how much you would receive per year in pension payments if you worked _x years in a company from which you retired, had a final salary of _y, and had a _z accrual rate. Assume your pension payment is determined by only those three factors.",
+            "variables": {"_x":[15,45,"i","y"],"_y":[50000,125000,"i", "c"],"_z": [1,6,"f","p"]},
+            "answer": "_x * _y * _z",
+            "hint": [
+                "Pensions accrue money at the accrual rate of the salary for each year you worked for the company.",
+                "Amount recieved per year = number of years at company * final salary * accrual rate"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What can you do with a defined contribution plan, that cannot be done with a defined benefit plan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Contribute"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Choose an investment option"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Manage investments directly"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Withdraw anytime free of charge"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a, c & d"
+                }
+            ],
+            "answer": "f",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Who determines contribution limits for defined contribution plans?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "IRS"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Individual States"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Federal Reserve "
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Employers"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which pension plan do 401k and 403b plans fall under?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Defined Benefit Plan"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Defined Contribution Plan"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is significant about age 59 and a half if you have a defined contribution plan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Eligible to withdraw from your plans’ account without fees"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Eligible to withdraw from your plans’ account without being taxed"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Required minimum withdrawals begin"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which tax advantage does a defined pension plan fall under?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Postponement (also known as deferral)"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Exemption"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is significant about age 79 and a half if you have a defined contribution plan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Eligible to withdraw from your plans’ account without fees"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Eligible to withdraw from your plans’ account without being taxed"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Required minimum withdrawals begin"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Why can pension plans be beneficial?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "They let you save for retirement"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Can decrease income tax total for a given year"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Increased ability to afford retirement"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Can save you money"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "f",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Pension Plan",
+            "url": "http://www.investopedia.com/terms/p/pensionplan.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Tax Exempt",
+            "url": "http://www.investopedia.com/terms/t/tax_exempt.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Tax Deferral",
+            "url": "https://en.wikipedia.org/wiki/Tax_deferral"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Defined Benefit Plan",
+            "url": "http://www.irs.gov/Retirement-Plans/Plan-Participant,-Employee/Definitions"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Defined Contribution Plan",
+            "url": "http://www.irs.gov/Retirement-Plans/Plan-Participant,-Employee/Definitions"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Required Minimum Distribution Resource",
+            "url": "http://www.irs.gov/Retirement-Plans/Plan-Participant,-Employee/Retirement-Topics-Required-Minimum-Distributions-(RMDs)"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Types of Retirement Accounts",
+            "url": "http://www.dol.gov/dol/topic/retirement/typesofplans.htm"
+        }
+    ]
+}

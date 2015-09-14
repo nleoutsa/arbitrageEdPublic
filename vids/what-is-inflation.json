@@ -1,0 +1,104 @@
+{
+    "video": {
+        "id": "what-is-inflation",
+        "title": "What is Inflation?",
+        "videoUrl": "https://www.youtube.com/embed/yahEP620480",
+        "videoThumbnail": "http://img.youtube.com/vi/yahEP620480/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "The basics of what price inflation is and how the CPI-U is calculated."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is inflation? How does inflation affect individual consumers?",
+            "choices": [
+                {"alpha":"a","answer": "Inflation is the general increase in the prices of goods and services (i.e. things you purchase)."},
+                {"alpha":"b","answer": "Inflation is the general decrease in the prices of goods and services (i.e. things you purchase)."},
+                {"alpha":"c","answer": "Inflation affects your life by pressuring companies to increase prices of their products in order to maintain profitability."},
+                {"alpha":"d","answer": "Inflation affects your life by pressuring companies to increase prices of their products in order to maintain profitability."},
+                {"alpha":"e","answer": "A & C."},
+                {"alpha":"f","answer": "B & D."}
+
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How does the Consumer Price Index (CPI) define a basket of goods and services?",
+            "choices": [
+                {"alpha":"a","answer": "A grouping of random items that consumers purchase even though they are non-essential."},
+                {"alpha":"b","answer": "A grouping of items that an average consumer needs to purchase."},
+                {"alpha":"c","answer": "A mixed grouping of random items and necessary items purchased by average consumers."}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What does the Consumer Price Index (CPI) measure?",
+            "choices": [
+
+                {"alpha":"a","answer": "The Consumer Price Index (CPI) measures inflation."},
+                {"alpha":"b","answer": "CPI measures the changes in purchasing power."},
+                {"alpha":"c","answer": "CPI measures changes in the average price of necessary goods and services purchased by average consumers."},
+                {"alpha":"d","answer": "All of the above."}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "In _a a basket of goods and services is worth _x. In _b the equivalent basket is worth _y. Calculate the inflation (%) to express the decrease in purchasing power.",
+            "variables": {"_x":[20000,35000,"i", "c"],"_y":[35001,50000,"i", "c"],"_a":[1950,1989,"i", "y"],"_b":[1990,2015,"i", "y"]},
+            "answer": "(_y - _x) / _x",
+            "hint": [
+                "Use the Holding Period Rate (HPR):",
+                "\\( Rate \\: of \\: Return \\: = {{Value \\: of \\: later \\: date \\: - \\: Value \\: of \\: earlier \\: date } \\over Value \\: of \\: earlier \\: date} \\)"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What is a difficulty faced when determining what belongs in the basket goods and services year-over-year?",
+            "choices": [
+
+                {"alpha":"a","answer": "Quickly evolving technologies, such as TV’s and smartphones, have significant price fluctuations. Once an item of that sort has been available for over a year, it’s treated as an outdated product and its price drops dramatically."},
+                {"alpha":"b","answer": "Inflation fluctuates differently for each good/service."},
+                {"alpha":"c","answer": "There are a lot of items certain people feel are necessary to purchase that are difficult to measure."},
+                {"alpha":"d","answer": "Different people purchase different things."}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "bonus": true,
+            "question": "Which of the following is used to measure inflation?",
+            "choices": [
+                {"alpha":"a","answer": "The Consumer Price Index (CPI), the indexed price of a basket of goods and services used by average Americans."},
+                {"alpha":"b","answer": "The Economist’s Big Mac Index, the price of a McDonald’s Big Mac in various cities around the world."},
+                {"alpha":"c","answer": "All of the U.S. stock market (AKA aggregate US stock market)"},
+                {"alpha":"d","answer": "All of the above."}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "ArbitrageEd.com's CPI calculator is up to date and allows you to calculate by month and year. The data is provided by the Bureau of Labor Statistics.",
+            "url_text": "",
+            "url": ""
+        },
+        {
+            "text": "Learn about CPI Methodology:",
+            "url_text": "US Bureau of Labor Statistics CPI Methodology",
+            "url": "http://www.bls.gov/cpi/cpi_methods.htm"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Consumer Price Index (CPI)",
+            "url": "http://www.investopedia.com/terms/c/consumerpriceindex.asp"
+        }
+    ]
+}

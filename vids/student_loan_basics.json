@@ -1,0 +1,291 @@
+{
+    "video": {
+        "id": "student_loan_basics",
+        "title": "Student Loan Basics",
+        "youtube_id": "nu6gY8kVL3E",
+        "videoUrl": "http://www.youtube.com/embed/nu6gY8kVL3E?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/nu6gY8kVL3E/2.jpg",
+        "playlist": "Student Loans",
+        "description": "We guide you on your first steps into the world of student loans."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is the purpose of a student loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Help students pay for their education and associated living expenses"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Provide a more luxurious lifestyle to ease stress of studies"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Help families of students cover their expenses"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Payoff other debts"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "From where can you borrow money?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Federal government"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "State government"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Your school"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Private institutions"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What are benefits of borrowing from the federal government?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Relatively low interest rates"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Can borrow unlimited amounts"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Generally better terms"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Always has the best rate"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & c"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "c & d"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Why are state and college loans better than private loans?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Better interest rates"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "More money available"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Flexible terms"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "More accessible"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above, every state and college can have their own loan program. Therefore, there’s no universal rule that they’re better."
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Where could you receive a private student loan from?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Bank"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Mutual fund"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Brokerages"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Credit Union"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a & d"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "a & b"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is a potential benefit of borrowing from private lenders, as compared to the federal government?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "You can borrow more money"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "You will receive more favorable interest rates"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Private loans are easier to pay off"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Private loans have a less complicated application process"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which element(s) make up total cost of attendance?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Tuition"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Books"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Living expenses"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How can you minimize your student loan burden?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Scholarships"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Grants"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Financial aid"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Pay what you can"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "CNN's cost of attendance calculator",
+            "url": "http://money.cnn.com/tools/collegecost/collegecost.html"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "The College Board's cost of attendance calculator",
+            "url": "http://studentnpc.collegeboard.org/participating-schools"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Private Lender: A non-governmental financial institution, such as banks and credit unions, that offer loans. In the case of student loans, a private lender is a financial institution that offers loans with terms which conform to the needs of students more than other loans. These loans are offered to students and parents of students to help pay for educational expenses while the student is enrolled in a post-secondary school.",
+            "url": "#"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Interest [StudentLoans.Gov]: The cost to borrow money. Interest is calculated as a percentage of the outstanding (unpaid) principal balance.",
+            "url": "#"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Scholarship",
+            "url": "http://dictionary.reference.com/browse/scholarship"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Grant [Google.com]: A sum of money given by an organization, especially a government, for a particular purpose.",
+            "url": "#"
+        }
+    ]
+}

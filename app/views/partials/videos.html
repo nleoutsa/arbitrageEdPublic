@@ -1,0 +1,68 @@
+
+<div id="pic_login">
+
+    <div class='video_search_container'>
+        <div class='video_search_form'>
+            <div class='video_search'>
+                Search: <input type="search" placeholder="search video lessons" ng-model="findIt">
+            </div>
+
+            <div class='video_search'>
+                Filter by Playlist:
+                <select ng-model='playlist' >
+                    <option value="">All Video Lessons</option>
+                    <option value="Business Finances">Business Finances</option>
+                    <option value="Personal Finances">Personal Finances</option>
+                    <option value="Student Loans">Student Loans</option>
+                    <option value="Khan Academy Inflation Series">Khan Academy Inflation Series</option>
+                </select>
+            </div>
+
+            <div class='video_search_results'>
+                <ul>
+                    <li class="animate-repeat" ng-repeat="video in filteredVideos = (videos | orderBy:['video.order', '-video.playlist'] | filter:playlist | filter:findIt )">
+
+                        <!-- anyone can see any video -->
+                        <a href="home#!/videos/{{video._id}}">
+                            <img ng-src="{{video.video.videoThumbnail}}">
+                            <div class="video_search_results_text">
+                                <h1>{{video.video.title}}</h1>
+
+                                <p>{{video.video.description}}</p>
+                            </div>
+                        </a>
+
+                        <!-- ng-if user is logged in take them to a video on click -->
+                        <!-- <a ng-if="user || (!user && (video._id == '559c47a9e4b09a230e990ab6' || video._id == '55b6e547e4b01d0a17ce00ca'))" href="home#!/videos/{{video._id}}">
+                            <img ng-src="{{video.video.videoThumbnail}}">
+                            <div class="video_search_results_text">
+                                <h1>{{video.video.title}}</h1>
+
+                                <p>{{video.video.description}}</p>
+                            </div>
+                        </a> -->
+
+                        <!-- ng-if user is NOT logged in take them to login page -->
+                        <!-- <a ng-if="!user && !(video._id == '559c47a9e4b09a230e990ab6' || video._id == '55b6e547e4b01d0a17ce00ca')" ng-click="$rootScope.showSignin = true; $rootScope.showSignup = false; $rootScope.redirectTo = 'home#!/videos/' + video._id">
+                            <img ng-src="{{video.video.videoThumbnail}}">
+                            <div class="video_search_results_text">
+                                <h1>{{video.video.title}}</h1>
+
+                                <p>{{video.video.description}}</p>
+                            </div>
+                        </a> -->
+                    </li>
+                    <li class="animate-repeat" ng-if="filteredVideos.length == 0">
+                        <a href="#">
+                            <div class="video_search_results_text">
+                                <h1>No Results</h1>
+
+                                <p>No Results</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

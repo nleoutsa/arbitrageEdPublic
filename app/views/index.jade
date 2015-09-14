@@ -1,0 +1,117 @@
+extends layout
+
+block content
+    //- template variables
+
+    main
+        .frame-progress-container
+            .frame-progress
+                a#scene_marker0.scene_markers(href='#scene0')
+                    p Top
+                a#scene_marker0.scene_markers(href='#new_videos_header')
+                    p New This Week
+                a#scene_marker6.scene_markers(href='#scene3')
+                    p Indiegogo Campaign
+                a#scene_marker1.scene_markers(href='#scene1')
+                    p Platform Overview
+                a#scene_marker2.scene_markers(href='#video_solo_cont')
+                    p Video Lessons
+                a#scene_marker3.scene_markers(href='#problem_sets_cont')
+                    p Problem Sets
+                a#scene_marker4.scene_markers(href='#calc_cont')
+                    p Calculator
+                a#scene_marker5.scene_markers(href='#cpi_tool_cont')
+                    p Research Tools
+
+        #scene0
+            #pic0
+                #text0_cont
+                    a(href='home#!/videos/559c47a9e4b09a230e990ab6')
+                        #logo0
+                    #text0
+                        span
+                            a(href='home#!/videos/559c47a9e4b09a230e990ab6') Financial education for&nbsp;life.
+
+                    #text01
+                        div Arbitrage Ed is a financial education website devoted to improving financial literacy. We offer short videos, problem sets, and research tools to help individuals learn every aspect of personal finance and investing.
+
+        #new_videos_header New This Week: Student Loans!
+        ul#new_videos(ng-controller="VideoListCtrl" ng-init="vid_index = 0; vid_limit = 12")
+            li
+                .animate-slider(ng-repeat="vid in filteredVideos = (videos | orderBy:'video.title' | orderBy:'-video.playlist') | limitTo: vid_limit" ng-if="$index == vid_index")
+                    a(href="home#!/videos/{{vid._id}}")
+                        img(ng-src="{{vid.video.videoThumbnail}}")
+                        h2 {{vid.video.title}}
+                        p {{vid.video.description}}
+                    //- a(ng-if="user || (!user && vid._id == '559c47a9e4b09a230e990ab6')" href="home#!/videos/{{vid._id}}")
+                        img(ng-src="{{vid.video.videoThumbnail}}")
+                        h2 {{vid.video.title}}
+                        p {{vid.video.description}}
+                    //- a(ng-if="!user && vid._id != '559c47a9e4b09a230e990ab6'" ng-click="$rootScope.showSignin = true; $rootScope.showSignup = false; $rootScope.redirectTo = 'home#!/videos/' + vid._id")
+                        img(ng-src="{{vid.video.videoThumbnail}}")
+                        h2 {{vid.video.title}}
+                        p {{vid.video.description}}
+
+            .fa.fa-chevron-left(ng-click="vid_index <= 0 ? vid_index = vid_limit - 1 : vid_index = vid_index - 1;")
+            .fa.fa-chevron-right(ng-click="vid_index >= vid_limit - 1 ? vid_index = 0 : vid_index = vid_index + 1;")
+
+        #new_videos_footer
+
+        #scene1_0
+            #call_to_action
+                a#try_it_now(href='home#!/videos/559c47a9e4b09a230e990ab6') Start learning now!
+
+        //- #scene3
+            #slide3
+                #indiegogo_logo_container
+                    a(href="http://igg.me/at/ArbitrageEd" target="_blank")
+                        #indiegogo_logo
+                #indiegogo_video
+                    .video-wrapper
+                        iframe(width="854", height="510", src='https://www.youtube.com/embed/9enMS7laK3M?&rel=0;controls=0;showinfo=0;', frameborder='0', allowfullscreen='')
+
+
+        //- #slide00
+            #indiegogo_text
+                a(href="http://igg.me/at/ArbitrageEd" target="_blank")
+                    #indiegogo_visit Visit our Indiegogo Campaign!
+                a(href="http://igg.me/at/ArbitrageEd" target="_blank") Help us bring financial literacy to the world! Please visit our Indiegogo campaign and support us so we can continue bringing you the highest quality video lessons and research tools around.
+
+        #scene1
+            #icons_container
+                a#icon0(href='#video_solo_cont')
+                    i.fa.fa-video-camera
+                    p Video Lessons
+                a#icon1(href='#problem_sets_cont')
+                    i.fa.fa-pencil
+                    p Problem Sets
+                a#icon2(href='#cpi_tool_cont')
+                    i.fa.fa-area-chart
+                    p Research Tools
+
+
+        #scene2.group
+            #slide2
+                #video_solo_cont.previews
+                    p.preview_title Short Video Lessons
+                    a(href='home#!/videos/559c47a9e4b09a230e990ab6')
+                        #video_solo_pic.preview_pics
+                        p Concise video lessons teach you what you want and need to know to have a better understanding of your financial life.
+                #problem_sets_cont.previews
+                    p.preview_title Problem Sets
+                    a(href='home#!/videos/559c47a9e4b09a230e990ab6')
+                        #problem_sets_pic.preview_pics
+                        p Problem sets tailored to each video help you reinforce what you've learned in the video lessons.
+                #calc_cont.previews
+                    p.preview_title Calculator
+                    a(href='home#!/videos/559c47a9e4b09a230e990ab6')
+                        #calc_pic.preview_pics
+                        p Need a hand with the numbers? A helpful scientific calculator follows you down the page as you learn!
+                #cpi_tool_cont.previews
+                    p.preview_title Research Tools
+                    a(href='home#!/videos/559c47a9e4b09a230e990ab6')
+                        #cpi_tool_pic.preview_pics
+                        p Spend some time applying what you've learned to real world data with our comprehensive research tools!
+
+
+

@@ -1,0 +1,74 @@
+{
+    "video": {
+        "id": "what_happens_when_you_buy_stock_pt2",
+        "title": "What Happens When You Buy Stock Pt.2",
+        "videoUrl": "https://www.youtube.com/embed/IQLc3VshZHk",
+        "videoThumbnail": "http://img.youtube.com/vi/IQLc3VshZHk/2.jpg",
+        "playlist": "Business Finances",
+        "description": "What actually happens when you buy a stock. (Part 2 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "How long is the waiting period to receive purchased stock?",
+            "choices": [
+                {"alpha":"a","answer":"One day"},
+                {"alpha":"b","answer":"Two days"},
+                {"alpha":"c","answer":"Three days"},
+                {"alpha":"d","answer":"None, it’s instantaneous"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Choose the best answer:",
+            "choices": [
+                {"alpha":"a","answer":"Bid price is a selling price"},
+                {"alpha":"b","answer":"Offer price is a selling price"},
+                {"alpha":"c","answer":"Bid price is a buying price"},
+                {"alpha":"d","answer":"Offer price is a buying price"},
+                {"alpha":"e","answer":"A and B"},
+                {"alpha":"f","answer":"B and C"},
+                {"alpha":"g","answer":"A and D"},
+                {"alpha":"h","answer":"C and D"}
+            ],
+            "answer": "f",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Why do market makers have bid prices lower than offer prices?",
+            "choices": [
+                {"alpha":"a","answer":"For enticing investors to buy"},
+                {"alpha":"b","answer":"Because of legal mandate"},
+                {"alpha":"c","answer":"That is never the case. Bid and offer prices are always the same."}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Settlement Period",
+            "url": "http://www.investopedia.com/terms/s/settlement_period.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Sale",
+            "url": "http://www.investopedia.com/terms/s/sale.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Bid",
+            "url": "http://www.investopedia.com/terms/b/bid.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Offer",
+            "url": "http://www.investopedia.com/terms/o/offer.asp"
+        }
+
+    ]
+}

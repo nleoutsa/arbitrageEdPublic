@@ -1,0 +1,123 @@
+
+/*
+*****************************************************************************
+********** Top Menu Bar Styles
+*****************************************************************************
+*/
+
+
+
+
+
+/*Remove rounded coners*/
+
+nav.navbar {
+  position: fixed;
+  z-index: 99999999;
+  border-radius: 0;
+  width: 100%;
+  font-size: 15px;
+  /*box-shadow: 0 3px 3px rgba(0,0,0,0.7);*/
+  /*box-shadow: none;*/
+}
+
+nav.navbar .container-fluid .navbar-header .navbar-brand {
+  z-index: 9999999;
+  position: relative;
+}
+
+/* .....NavBar: Icon only with coloring/layout.....*/
+
+/*small/medium side display*/
+@media (min-width: 768px) {
+
+
+  /*colors dropdown box text */
+  .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+    color: #777;
+  }
+
+  /*for hiden things when navbar hidden*/
+  .forAnimate{
+    opacity: 0;
+  }
+}
+
+/* .....NavBar: Fully showing nav bar..... */
+
+@media (min-width: 1330px) {
+
+}
+
+nav:hover .forAnimate{
+  opacity: 1;
+}
+
+
+.social-top-nav {
+  text-align: right;
+  font-size: 1.5em;
+  margin-top: 0.6em;
+}
+
+.social-top-nav li a:link,
+.social-top-nav li a:visited {
+  color: #888;
+}
+.social-top-nav li a:hover {
+  color: #fff;
+}
+.social-top-nav li {
+  display: inline-block;
+  float: right;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+.profile-pic-small {
+  display: inline-block;
+  height: 1.9em;
+  width: 1.9em;
+  margin-right: 0.5em;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.arbitrage-logo-small {
+  display: inline-block;
+  height: 1.9em;
+  width: 1.9em;
+  background-repeat: no-repeat;
+  margin-right: 0.5em;
+  background-size: cover;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+
+.arbitrage-logo-small:hover {
+  box-shadow: 0px 0px 6px rgba(15, 163, 177, 1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

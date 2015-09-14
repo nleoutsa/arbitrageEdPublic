@@ -1,0 +1,31 @@
+{
+    "video": {
+        "id": "stagflation",
+        "title": "Stagflation",
+        "videoUrl": "https://www.youtube.com/embed/bTz_tx460EY",
+        "videoThumbnail": "http://img.youtube.com/vi/bTz_tx460EY/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "How a supply shock can cause prices to rise and the economy to stagnate."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is stagflation?",
+            "choices": [
+                {"alpha":"a","answer": "When there is both inflation and stagnation in a country’s economy."},
+                {"alpha":"b","answer": "When there is consistent deflation or inflation in a country’s economy."},
+                {"alpha":"c","answer": "When everything stays the same."}
+
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Hyperinflation",
+            "url": "http://www.investopedia.com/terms/s/stagflation.asp"
+        }
+    ]
+}

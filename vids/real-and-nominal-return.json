@@ -1,0 +1,88 @@
+{
+    "video": {
+        "id": "real-and-nominal-return",
+        "title": "Real and Nominal Return",
+        "videoUrl": "https://www.youtube.com/embed/cNm196bVE5A",
+        "videoThumbnail": "http://img.youtube.com/vi/cNm196bVE5A/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Inflation and real and nominal return."
+    },
+    "problemSets": [
+        {
+            "radio": false,
+            "question": "If you invest _x in _a, _A and _b months later you have _y, what is your rate of return?",
+            "variables": {"_x":[100000,150000,"i", "c"],"_y":[200001,300000,"i", "c"],"_a":[1,12,"i", "y"],"_A":[1950,1989,"i", "y"],"_b":[12,72,"i", "y"]},
+            "answer": "(_y - _x) / _x",
+            "hint": [
+                "Use the Holding Period Rate (HPR):",
+                "\\( Rate \\: of \\: Return \\: = {{Value \\: of \\: later \\: date \\: - \\: Value \\: of \\: earlier \\: date } \\over Value \\: of \\: earlier \\: date} \\)"
+                ]
+        },
+        {
+            "radio": true,
+            "question": " Is your answer to question 1 a Real return, Nominal return, or neither?",
+            "choices": [
+                {"alpha":"a","answer": "Real"},
+                {"alpha":"b","answer": "Nominal"},
+                {"alpha":"c","answer": "Neither"}
+
+            ],
+            "answer": "b",
+            "hint": "Nominal return does not take into account inflation, whereas Real return does."
+        },
+        {
+            "radio": false,
+            "question": "If inflation is _y from _a, _A through _b, _B, how much is _x from _a, _A worth in _b, _B? Remember that inflation is cumulative.",
+            "variables": {"_x":[100,100000,"i","c"],"_y":[1,6,"f", "p"],"_a":[1,12,"i", "y"],"_A":[1950,1989,"i", "y"],"_b":[1,12,"i", "y"],"_B":[1990,2015,"i", "y"]},
+            "answer": "_x * (1 + _y)",
+            "hint": ["\\( Value \\: of \\: later \\: date \\: = \\: (Value \\: of \\: earlier \\: date) * (1 \\: + \\: Inflation \\: rate) \\)"]
+        },
+        {
+            "radio": true,
+            "question": "Is your answer to question 3 a Real return, Nominal return, or neither?",
+            "choices": [
+                {"alpha":"a","answer": "Real"},
+                {"alpha":"b","answer": "Nominal"},
+                {"alpha":"c","answer": "Neither"}
+
+            ],
+            "answer": "c",
+            "hint": "Real and Nominal returns are ‘Rates’ of Return, which means they must be expressed in terms of % or the equivalent of a %."
+        },
+        {
+            "radio": false,
+            "question": "If you invest _x in _a, _A and your investment is valued at _y in _b, _B, and between those dates there was a _z inflation, what is your real rate of return in the later year's money? [In the video, Sal simplified the Holding Period Rate (HPR) to solve for the rate of return.]",
+            "variables": {"_x":[10000,20000,"i","c"],"_y":[21000,30000,"i","c"],"_z":[1,6,"f", "p"],"_a":[1,12,"i", "y"],"_A":[1950,1989,"i", "y"],"_b":[1,12,"i", "y"],"_B":[1990,2015,"i", "y"]},
+            "answer": "_y * (1 + _z)",
+            "hint": [
+                "\\( Real \\: Rate \\: of \\: Return \\: = \\: {{(1 \\: + \\: Nominal \\: Rate) \\over (1 \\: + \\: Inflation \\: Rate)} - 1} \\)",
+                "Use the Holding Period Rate (HPR):",
+                "\\( Nominal \\: Rate \\: of \\: Return \\: = \\: {{(Value \\: of \\: later \\: date) - (Value \\: of \\: earlier \\: date)} \\over (Value \\: of \\: earlier \\: date)} \\)"
+
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What is the difference between a Nominal Rate of Return and Real Rate of Return?",
+            "choices": [
+                {"alpha":"a","answer": "The Real Rate of Return ignores the effects from changes to purchasing power (i.e. inflation), while Nominal Rate of Return includes those effects in its the calculation."},
+                {"alpha":"b","answer": "The Nominal Rate of Return ignores the effects from changes to purchasing power (i.e. inflation), while Real Rate of Return includes those effects in its the calculation."}
+
+            ],
+            "answer": "b",
+            "hint": "Nominal return does not take into account inflation, whereas Real return does."
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Nominal Rate of Return",
+            "url": "http://www.investopedia.com/terms/n/nominal-rate-of-return.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Real Rate of Return",
+            "url": "http://www.investopedia.com/terms/r/realrateofreturn.asp"
+        }
+    ]
+}

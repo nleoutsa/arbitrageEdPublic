@@ -1,0 +1,333 @@
+{
+    "video": {
+        "id": "intro-to-individual-retirement-accounts",
+        "title": "Intro to Individual Retirement Accounts",
+        "videoUrl": "https://www.youtube.com/embed/Sz3rXRQsVDI",
+        "videoThumbnail": "http://img.youtube.com/vi/Sz3rXRQsVDI/2.jpg",
+        "playlist": "Personal Finances",
+        "description": "An introduction to IRA and Roth IRA accounts."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "How do IRAs differ from pension plans?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "IRAs are not administered by employers"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "IRAs have more investment options"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "If you have a pension plan, you cannot have an IRA"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "IRAs have the option to defer taxes"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "c & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a, b & d"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Where can you open an IRA?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Banks"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Mutual Fund Companies"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Brokerage firms"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "If you have _x of income this year and you contribute _y to a Traditional IRA, what is your taxable income this year?",
+            "variables": {"_x":[30000,125000,"i", "c"],"_y":[1000,5500,"i", "c"]},
+            "answer": "_x - _y",
+            "hint": [
+                "For Traditional IRAs, income taxes are payed on distributions",
+                "Taxable income this year = total income this year - contributions to Traditional IRA"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What type of tax advantage is provided by the Traditional IRA?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Tax exemption on contributions"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Tax exemption on capital gains"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Tax deferral on contributions"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Tax deferral on capital gains"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "c & d"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "g",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When are you taxed on contributions to a Traditional IRA?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The same year you contribute"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The day you retire"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "When you turn 65"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "You are not taxed for contributions, however, you will be taxed upon receiving a distribution"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the minimum non penalized age?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "59 and a half"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "65"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "70 and a half"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "70"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "If you have _x of income this year and you contribute _y to a Roth IRA, what is your taxable income this year?",
+            "variables": {"_x":[30000,125000,"i", "c"],"_y":[1000,5500,"i", "c"]},
+            "answer": "_x",
+            "hint": [
+                "For Roth IRAs, income taxes are payed on contributions the same year they are made.",
+                "Taxable income this year = total income this year"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What type of tax advantage is provided by the Roth IRA?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Tax exemption on contributions"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Tax exemption on capital gains"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Tax deferral on contributions"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Tax deferral on capital gains"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "c & d"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When are you taxed on contributions to a Roth IRA?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The same year you contribute"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The day you retire"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "When you turn 65"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Upon receiving a distribution"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If you expect to be in a higher tax bracket when you receive distributions, which IRA account is the better choice?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Traditional IRA"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Roth IRA"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If you expect to be in a lower tax bracket when you receive distributions, which IRA account is the better choice?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Traditional IRA"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Roth IRA"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Traditional IRA",
+            "url": "http://www.investopedia.com/terms/t/traditionalira.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Roth IRA",
+            "url": "http://www.investopedia.com/terms/r/rothira.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Mutual Fund",
+            "url": "http://www.investopedia.com/terms/m/mutualfund.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Tax Deferral",
+            "url": "https://en.wikipedia.org/wiki/Tax_deferral"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Capital Gains Tax",
+            "url": "https://en.wikipedia.org/wiki/Capital_gains_tax#United_States"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Current Tax Brackets",
+            "url": "http://taxfoundation.org/article/2015-tax-brackets"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Regarding State IRA Taxation",
+            "url": "http://www.wsj.com/articles/SB10001424127887324188604578541751270494278"
+        },
+        {
+            "text": "Research:",
+            "url_text": "State Individual Income Tax Rates and
+Brackets for 2015",
+            "url": "http://taxfoundation.org/sites/taxfoundation.org/files/docs/TaxFoundation_FF462.pdf"
+        },
+        {
+            "text": "Research:",
+            "url_text": "IRS Tax Withholding Calculator",
+            "url": "http://apps.irs.gov/app/withholdingcalculator/"
+        },
+        {
+            "text": "Research:",
+            "url_text": "State Tax Calculator",
+            "url": "http://us.icalculator.info/"
+        }
+    ]
+}

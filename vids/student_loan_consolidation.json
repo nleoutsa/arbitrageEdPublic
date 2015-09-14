@@ -1,0 +1,54 @@
+// // HOLD TILL SHALOM SAYS ITS FIXED.
+// {
+//     "video": {
+//         "id": "student_loan_consolidation",
+//         "title": "Student Loan Consolidation",
+//         "youtube_id": "XhbRBs5PF84",
+//         "videoUrl": "http://www.youtube.com/embed/XhbRBs5PF84?enablejsapi=1&origin=http://localhost:8080",
+//         "videoThumbnail": "http://img.youtube.com/vi/XhbRBs5PF84/2.jpg",
+//         "playlist": "Student Loans",
+//         "description": "Learn about loan consolidation for both student and general loans."
+//     },
+//     "problemSets": [
+//         {
+//             "radio": true,
+//             "question": "",
+//             "choices": [
+//                 {
+//                     "alpha": "a",
+//                     "answer": ""
+//                 },
+//                 {
+//                     "alpha": "b",
+//                     "answer": ""
+//                 },
+//                 {
+//                     "alpha": "c",
+//                     "answer": ""
+//                 },
+//                 {
+//                     "alpha": "d",
+//                     "answer": ""
+//                 },
+//                 {
+//                     "alpha": "e",
+//                     "answer": ""
+//                 }
+//             ],
+//             "answer": "a",
+//             "hint": "Incorrect"
+//         }
+//     ],
+//     "links": [
+//         {
+//             "text": "Research:",
+//             "url_text": "",
+//             "url": ""
+//         },
+//         {
+//             "text": "Definition:",
+//             "url_text": "",
+//             "url": ""
+//         }
+//     ]
+// }

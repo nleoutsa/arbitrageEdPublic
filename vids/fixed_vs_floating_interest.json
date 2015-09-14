@@ -1,0 +1,147 @@
+{
+    "video": {
+        "id": "fixed_vs_floating_interest",
+        "title": "Fixed Vs Floating Interest",
+        "youtube_id": "wU_m-nHrD_w",
+        "videoUrl": "http://www.youtube.com/embed/wU_m-nHrD_w?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/wU_m-nHrD_w/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn the difference between fixed and floating interest rates."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is the difference between fixed and floating interest rates?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Fixed rates have a constant spread to a benchmark rate"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Floating rates are always higher than fixed rates"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Floating rates are determined arbitrarily by the lending institution"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Fixed rates change with the prevailing market interest rate"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "f",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When do floating rate loans reset?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Never"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Daily"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Monthly"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "When the underlying benchmark rate resets"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "When the bank’s president determines the time is right"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If the benchmark interest rate has been declining for a long period of time, does that mean it will continue to decline?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Yes, because it indicates a downward trend in the economy"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "No, because institutional lenders will step in to adjust the rate"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "No, because market forces will adjust and react"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Yes, because interest rates have been declining since the beginning of market-based lending"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If you have a floating rate of benchmark plus 4%, what will your interest rate be the next time it resets?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "You cannot know for certain"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The benchmark rate plus 4% (the rate will remain constant)"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The benchmark rate plus 3% (the rate will constantly decrease over the life of the loan)"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "The benchmark rate plus 5% (the rate will constantly increase over the life of the loan)"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Fixed Interest Rate",
+            "url": "http://financial-dictionary.thefreedictionary.com/Fixed+Interest+Rate"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Floating Interest Rate (Variable Interest Rate)",
+            "url": "http://financial-dictionary.thefreedictionary.com/Variable+Interest+Rate"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Creditworthiness",
+            "url": "http://financial-dictionary.thefreedictionary.com/Creditworthiness"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Interest Rate Spread",
+            "url": "http://www.investopedia.com/terms/n/net-interest-rate-spread.asp"
+        }
+    ]
+}

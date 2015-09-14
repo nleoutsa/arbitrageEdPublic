@@ -1,0 +1,40 @@
+{
+    "video": {
+        "id": "deflation-despite-decreases-in-money-supply",
+        "title": "Deflation Despite Increases in Money Supply",
+        "videoUrl": "https://www.youtube.com/embed/t2AeULH_Ijw",
+        "videoThumbnail": "http://img.youtube.com/vi/FPh6EDv0Eew/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "How you can have deflation even if the money supply increases."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "If the money supply were to increase dramatically, will inflation increase as a byproduct?",
+            "choices": [
+                {"alpha":"a","answer":"Inflation will definitely increase drastically because there’s more money available to spend."},
+                {"alpha":"b","answer":"If prices don’t increase and purchasing power doesn’t decrease, effectively inflation will not increase. (This can happen if, for example, people hoard money)."},
+                {"alpha":"c","answer":"There will be no effect on inflation."}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Keep learning! How much currency is in circulation?",
+            "url_text": "Federal Reserve Currency in Circulation Data",
+            "url": "http://www.federalreserve.gov/paymentsystems/coin_data.htm"
+        },
+        {
+            "text": "Report on Federal Reserve's Balance:",
+            "url_text": "Factors Affecting Reserve Balances",
+            "url": "http://www.federalreserve.gov/releases/h41/Current/"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Quantity Theory of Money",
+            "url": "http://www.investopedia.com/terms/q/quantity_theory_of_money.asp"
+        }
+    ]
+}

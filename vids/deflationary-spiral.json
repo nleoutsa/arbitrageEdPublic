@@ -1,0 +1,39 @@
+{
+    "video": {
+        "id": "deflationary-spiral",
+        "title": "Deflationary Spiral",
+        "videoUrl": "https://www.youtube.com/embed/snX4Wf7PGts",
+        "videoThumbnail": "http://img.youtube.com/vi/snX4Wf7PGts/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Basics of a deflationary spiral."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Describe the employment cycle if employment increases. Does this cycle cause inflation?",
+            "choices": [
+                {"alpha":"a","answer": "If employment increases, there will be fewer people with money to make purchases. That will decrease demand which persuades sellers to decrease prices and/or supplies. The decrease in price and/or supplies decreases the seller's profits, and results in an increase in employment. If prices decrease, this cycle causes deflation, not inflation."},
+                {"alpha":"b","answer": "If employment increases, there will be more people with money to make purchases. That increases demand which promotes sellers to increase their prices, and/or supplies. The increases in prices and/or supplies increases the seller's profits, and gives them reason to employ more people. If prices increase, this cycle does cause inflation."}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Describe the employment cycle in unemployment increases. Does this cycle cause inflation?",
+            "choices": [
+                {"alpha":"a","answer": "If employment decreases, there will be fewer people with money to make purchases. That will decrease demand which persuades sellers to decrease prices and/or supplies. The decrease in price and/or supplies decreases the seller's profits, and results in a decrease in employment. If prices decrease, this cycle causes deflation, not inflation."},
+                {"alpha":"b","answer": "If employment decreases, there will be more people with money to make purchases. That increases demand which promotes sellers to increase their prices, and/or supplies. The increases in prices and/or supplies increases the seller's profits, and gives them reason to employ fewer people. If prices increase, this cycle does cause inflation."}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Keep learning! Check out unemployment data from 2005 to 2015:",
+            "url_text": "US Bureau of Labor Statistics Unemployment Rate Data",
+            "url": "http://data.bls.gov/timeseries/LNS14000000"
+        }
+    ]
+}

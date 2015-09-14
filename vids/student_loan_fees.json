@@ -1,0 +1,123 @@
+{
+    "video": {
+        "id": "student_loan_fees",
+        "title": "Student Loan Fees",
+        "youtube_id": "fPcWuTsXwUc",
+        "videoUrl": "http://www.youtube.com/embed/fPcWuTsXwUc?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/fPcWuTsXwUc/2.jpg",
+        "playlist": "Student Loans",
+        "description": "What fees should you be conscious of when applying for student loans? We do our best to answer."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Which of the following is not a typical loan fee?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Processing and origination"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Latency "
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Early termination"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "e",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What do processing and origination fees cover?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Legal costs"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Background checks"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Credit checks"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above, those are closing costs."
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How do lenders charge you for processing and origination fees?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Up-front"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Proportionately spread out between payments"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Increased interest rate"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "All of the above"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Federal Student Loan Interest Rates and Fees",
+            "url": "https://studentaid.ed.gov/sa/types/loans/interest-rates#are-there-any-other-fees-for-federal-student-aid"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Processing/Origination Fee [from Google]: A fee charged by a lender on entering into a loan agreement to cover the cost of processing the loan.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Credit Check",
+            "url": "http://www.investorwords.com/5488/credit_check.html"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Background Check",
+            "url": "http://www.businessdictionary.com/definition/background-check.html"
+        }
+    ]
+}

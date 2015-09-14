@@ -1,0 +1,142 @@
+
+/*****                Login/Register Pages             *********/
+
+.login_container {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.click-off {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.login-form {
+  position: fixed;
+  text-align: center;
+  z-index: 999999;
+  background-color: rgba(250,250,250,1);
+  margin: 0 auto;
+  margin-top: -200px;
+  margin-left: -200px;
+  padding: 2em;
+  float: left;
+  width: 400px;
+  border-radius: 10px;
+  border: 3px solid #0FA3B1;
+  left: 50%;
+  top: 50%;
+}
+
+.login-form h1 {
+  display: block;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(115, 107, 2, 0.3);
+}
+.login-form h2 {
+  display: block;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  border-top: 1px solid rgba(115, 107, 2, 0.3);
+}
+
+.login-field {
+  margin: 10px auto;
+  width: 80%;
+}
+
+.login_buttons {
+  margin-top: 10px;
+}
+
+.login_alt {
+  margin: 10px auto;
+}
+
+
+#pic_login {
+  background-image: url("../images/bench_gradient.jpg");
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+/*=====================================
+=            MEDIA QUERIES            =
+=====================================*/
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+
+
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+      .login-form {
+          width: 100%;
+          /*height: 100%;*/
+          margin: 0;
+          margin-top: 100px;
+          left: 0;
+          top: 0;
+          border-radius: 0;
+      }
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }

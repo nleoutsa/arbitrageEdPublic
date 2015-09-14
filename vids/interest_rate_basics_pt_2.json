@@ -1,0 +1,211 @@
+{
+    "video": {
+        "id": "interest_rate_basics_pt_2",
+        "title": "Interest Rate Basics Pt.2",
+        "youtube_id": "PuUOY5Uw44A",
+        "videoUrl": "http://www.youtube.com/embed/PuUOY5Uw44A?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/PuUOY5Uw44A/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn about the interest rates from our two part video. (Part 2 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What do LIBOR and Federal Funds Rate represent?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Interest rates that financial institutions charge each other for specific loans"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Interest rates that financial institutions charge individuals for specific loans"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Interest rates that individuals should charge one another for specific loans"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which rates are generally higher?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Fixed rates are generally higher than floating rates"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Floating rates are generally higher than fixed rates"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Neither are necessarily higher than the other"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Both are always equal"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is opportunity cost?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The amount of time spent negotiating loan terms"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The origination fee charged by lenders for extending a loan"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The previous 12 month average return of the stock market"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "The loss of a potential gain from one alternative when another is chosen"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "None of the above"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which of the following are not used to determine the interest rate for a loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The length of time the loan is in effect"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The amount of money being borrowed"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The borrower’s creditworthiness"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "The lender’s creditworthiness"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "The lender’s cost of capital"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "None of the above--all are used to determine the interest rate"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is a way for the bank to make profits?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Banks can lend money at higher interest rates than the rate at which they borrow money, thereby profiting from the difference"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Banks can lend money at lower interest rates than the rate at which they borrow money, thereby profiting from the difference"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Banks charge fees for services like loans"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Banks charge interest for clients’ savings"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "a & c"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "a, b, & c"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "All of the above"
+                }
+            ],
+            "answer": "h",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Current LIBOR Interest Rates",
+            "url": "http://www.bankrate.com/rates/interest-rates/libor.aspx"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Current Federal Funds Rate",
+            "url": "http://www.bankrate.com/rates/interest-rates/federal-funds-rate.aspx"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Benchmark Interest Rate",
+            "url": "http://www.investorwords.com/458/benchmark_interest_rate.html"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "London Interbank Offered Rate (LIBOR)",
+            "url": "https://en.wikipedia.org/wiki/Libor"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Federal Funds Rate",
+            "url": "https://en.wikipedia.org/wiki/Federal_funds_rate"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Fixed Interest Rate",
+            "url": "http://financial-dictionary.thefreedictionary.com/Fixed+Interest+Rate"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Floating Interest Rate (Variable Interest Rate)",
+            "url": "http://financial-dictionary.thefreedictionary.com/Variable+Interest+Rate"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Opportunity Cost",
+            "url": "http://www.economicshelp.org/blog/2177/economics/opportunity-cost-definition/"
+        }
+    ]
+}

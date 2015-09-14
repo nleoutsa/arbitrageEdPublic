@@ -1,0 +1,241 @@
+
+/*****               Research Tool              *********/
+
+.research-tool {
+  width: 95%;
+  padding: 2%;
+  height: 100%;
+  background-color: rgba(250,250,250,0.6);
+  margin: 5% 2% 2% 5%;
+  box-shadow: -1px 1px 3px rgba(0,0,0,0.5);
+  overflow: hidden;
+  /*border-radius: 5px;*/
+}
+
+.research-tool h1 {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  padding-top: 0.5em;
+
+}
+
+.base-month-year {
+  padding-top: 1em;
+}
+
+.select-month-year {
+  text-align: center;
+  /*margin: 1em;*/
+}
+
+.cpi-text {
+  text-align: center;
+}
+
+.cpi-text-input {
+  margin: 2em auto;
+  height: 20px;
+  text-align: center;
+}
+
+.cpi-answers {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.cpi_real_cost_text {
+  font-size: 2em;
+  margin: 0 auto;
+  text-align: center;
+}
+.cpi_real_cost {
+  font-size: 3em;
+}
+.cpi_warning {
+  padding: 0 1em;
+  margin-top: 1em;
+  font-size: 1.5em;
+  color: #ff7777;
+}
+.cpi-disclaimer {
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+/*****                Toggle Switch             *********/
+
+.toggle {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+.toggle-choice {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  outline: none;
+  border: none;
+  float: left;
+  display: inline-block;
+  width: 33.333%;
+  height: 60px;
+  color: white;
+  border-right: 1px solid white;
+}
+
+
+.toggle-choice:hover {
+  background-color: #444;
+  color: white;
+  border-right: 1px solid white;
+}
+
+
+.toggle-choice:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.toggle-choice:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.tog {
+  /*background-color: #0FA3B1;*/
+  background-color: #e04444;
+  color: #fff;
+}
+.tog:hover {
+  /*background-color: #0FA3B1;*/
+  background-color: #d03333;
+}
+
+
+/*=====================================
+=            MEDIA QUERIES            =
+=====================================*/
+    /*==========  Mobile First Method  ==========*/
+
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+
+    /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+      .research-tool {
+        width: 100%;
+        padding: 0;
+        height: 450px;
+        margin: 0;
+        background-color: white;
+      }
+
+
+      .toggle-choice:first-child {
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+      }
+
+      .toggle-choice:last-child {
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+      }
+
+      .toggle-choice {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        outline: none;
+        border: none;
+        float: left;
+        display: inline-block;
+        width: 33.333%;
+        height: 50px;
+        color: white;
+        background-color: #888;
+        border-right: 1px solid white;
+      }
+
+
+      .toggle-choice:hover {
+        background-color: #444;
+        color: white;
+        border-right: 1px solid white;
+      }
+
+
+      .toggle-choice:first-child {
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+      }
+
+      .toggle-choice:last-child {
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+
+
+      .tog {
+        /*background-color: #0FA3B1;*/
+        background-color: #e04444;
+        color: #fff;
+      }
+      .tog:hover {
+        /*background-color: #0FA3B1;*/
+        background-color: #d03333;
+      }
+
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+
+
+    }
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */
+    @media only screen and (max-width : 320px) {
+
+    }
+

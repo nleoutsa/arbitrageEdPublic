@@ -1,0 +1,106 @@
+{
+    "video": {
+        "id": "initial-public-offering",
+        "title": "Initial Public Offering (IPO)",
+        "videoUrl": "https://www.youtube.com/embed/LaqNhD6LDtU",
+        "videoThumbnail": "http://img.youtube.com/vi/LaqNhD6LDtU/2.jpg",
+        "playlist": "Business Finances",
+        "description": "What is an Initial Public Offering?"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is an Initial Public Offering (IPO)?",
+            "choices": [
+                {"alpha":"a","answer":"Anytime a company sells their stock it’s called an IPO"},
+                {"alpha":"b","answer":"The first time a company sells stock on the public market"},
+                {"alpha":"c","answer":"When a company releases a significant product to the public"}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "If a company sells _x shares for _y and all of their shares are purchased, how much money did the company receive?",
+            "variables": {"_x":[10000,100000,"i", "y"],"_y":[1.00,300,"f", "c"]},
+            "answer": "_x * _y",
+            "hint": [
+                "Funding Received = shares sold * cost per share"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "How many shareholders’ can a public company have?",
+            "choices": [
+                {"alpha":"a","answer":"No more than 1000"},
+                {"alpha":"b","answer":"No more than 10,000"},
+                {"alpha":"c","answer":"No more than 100,000"},
+                {"alpha":"d","answer":"There is no limit"}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Who do companies hire to help them with their Initial Public Offering?",
+            "choices": [
+                {"alpha":"a","answer":"Stock Brokers"},
+                {"alpha":"b","answer":"Mutual Funds"},
+                {"alpha":"c","answer":"Investment Banks"},
+                {"alpha":"d","answer":"Consumer Banks"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "If a company sells their shares for $X during their Initial Public Offering (IPO) and the share prices change dramatically, what does the change in share price represent?",
+            "choices": [
+                {"alpha":"a","answer":"If price increases: The shares were underpriced. Therefore, the company could have received more funds if they had increased the price for their IPO"},
+                {"alpha":"b","answer":"If price decreases: The shares were effectively priced, because the company sold every share at its highest price"},
+                {"alpha":"c","answer":"If price increases: The shares were effectively priced, because investors were willing to pay more for their shares"},
+                {"alpha":"d","answer":"If price decreases: The shares were overpriced, because investors pay less afterwards."},
+                {"alpha":"e","answer":"A and D"},
+                {"alpha":"f","answer":"C and B"},
+                {"alpha":"g","answer":"A and B"},
+                {"alpha":"h","answer":"C and D"}
+            ],
+            "answer": "g",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What does a public company receive from the trading of stock? (Hint: Trading only takes place after the Initial Public Offering)",
+            "choices": [
+                {"alpha":"a","answer":"Nothing"},
+                {"alpha":"b","answer":"A portion of the amount paid from every trade"},
+                {"alpha":"c","answer":"Every Time a share is purchased, the entire amount is received by the company"},
+                {"alpha":"d","answer":"None of the above"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Research Tool:",
+            "url_text": "Latest and Upcoming IPOs",
+            "url": "http://www.nasdaq.com/markets/ipos/"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Initial Public Offering (IPO) (short)",
+            "url": "http://www.investopedia.com/terms/c/consumerpriceindex.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Initial Public Offering (IPO) (long)",
+            "url": "https://en.wikipedia.org/wiki/Initial_public_offering"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Investor",
+            "url": "http://www.investopedia.com/terms/i/investor.asp"
+        }
+    ]
+}

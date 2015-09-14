@@ -1,0 +1,35 @@
+{
+    "video": {
+        "id": "hyperinflation",
+        "title": "Hyperinflation",
+        "videoUrl": "https://www.youtube.com/embed/AC_kjcuHpZw",
+        "videoThumbnail": "http://img.youtube.com/vi/AC_kjcuHpZw/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Basics of hyperinflation. Weimar Germany, Hungarian Pengo and Zimbabwean Dollar."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What is hyperinflation?",
+            "choices": [
+                {"alpha":"a","answer": "When purchasing power increases drastically."},
+                {"alpha":"b","answer": "Very high deflation."},
+                {"alpha":"c","answer": "Very high inflation."},
+                {"alpha":"d","answer": "Very high stagflation."},
+                {"alpha":"e","answer": "Very low deflation."},
+                {"alpha":"f","answer": "Very low inflation."},
+                {"alpha":"g","answer": "Very low stagflation."}
+
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Hyperinflation",
+            "url": "http://www.investopedia.com/terms/h/hyperinflation.asp"
+        }
+    ]
+}

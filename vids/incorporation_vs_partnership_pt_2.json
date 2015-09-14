@@ -1,0 +1,104 @@
+{
+    "video": {
+        "id": "incorporation_vs_partnership_pt_2",
+        "title": "Incorporation Vs. Partnership Pt.2",
+        "videoUrl": "https://www.youtube.com/embed/xozuBd7wMnY",
+        "videoThumbnail": "http://img.youtube.com/vi/xozuBd7wMnY/2.jpg",
+        "playlist": "Business Finances",
+        "description": "The board of directors and managements roles in a corporation. (Part 2 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What duties do members of the board of directors have?",
+            "choices": [
+                {"alpha":"a","answer": "Speak and act on behalf of shareholders"},
+                {"alpha":"b","answer": "Supervise the company"},
+                {"alpha":"c","answer": "Delegate management responsibilities"},
+                {"alpha":"d","answer": "All of the above"}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "To whom does the Chief Executive Officer (CEO) report?",
+            "choices": [
+                {"alpha":"a","answer": "Board of directors"},
+                {"alpha":"b","answer": "Management"},
+                {"alpha":"c","answer": "Shareholders"}
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "To whom do the board of directors report?",
+            "choices": [
+                {"alpha":"a","answer":"Board of directors"},
+                {"alpha":"b","answer":"Management"},
+                {"alpha":"c","answer":"Shareholders"}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is “proxy voting”?",
+            "choices": [
+                {"alpha":"a","answer":"The process through which shareholders elect individuals to management positions"},
+                {"alpha":"b","answer":"The process through which shareholders elect individuals to the board of directors"},
+                {"alpha":"c","answer":"A method for investors to have a direct opinion on every company matter"}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Research:",
+            "url_text": "U.S. Small Business Administration: Business Structures",
+            "url": "https://www.sba.gov/category/navigation-structure/starting-managing-business/starting-business/choose-your-business-stru"
+        },
+        {
+            "text": "Research:",
+            "url_text": "Benifit Corporations",
+            "url": "http://benefitcorp.net/quick-faqs"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Corporation",
+            "url": "http://www.investopedia.com/terms/c/corporation.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Partnership",
+            "url": "http://www.investopedia.com/terms/p/partnership.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Limited Liability Company (LLC)",
+            "url": "http://www.investopedia.com/terms/l/llc.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Management (short)",
+            "url": "http://www.merriam-webster.com/dictionary/management"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Management (long)",
+            "url": "https://en.wikipedia.org/wiki/Management"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Board of Directors (short)",
+            "url": "http://www.investopedia.com/terms/b/boardofdirectors.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Board of Directors (long)",
+            "url": "https://en.wikipedia.org/wiki/Board_of_directors"
+        }
+    ]
+}

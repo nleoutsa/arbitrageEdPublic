@@ -1,0 +1,674 @@
+
+<section class="lesson">
+  <div class="col-4" ng-controller="VideoListCtrl">
+
+
+    <div class="video-menu-container">
+      <h2 class="video-title">{{ video.video.title | uppercase}}</h2>
+
+      <div>
+        <div class='video-menu-title'>
+          <h4>More Lessons:</h4>
+          <select class='video_lesson_search_select' ng-model='playlist' >
+              <option value="">All Video Lessons</option>
+              <option value="Business Finances">Business Finances</option>
+              <option value="Personal Finances">Personal Finances</option>
+              <option value="Student Loans">Student Loans</option>
+              <option value="Khan Academy Inflation Series">Khan Academy Inflation Series</option>
+          </select>
+        </div>
+
+        <ul class="video-menu">
+          <li class='video-lesson-list'>
+            <div onclick="onYouTubeIframeAPIReady();" ng-repeat="vid in filteredVideos = (videos | orderBy:['video.order', '-video.playlist'] | filter:playlist)">
+
+              <!-- anyone can see any video -->
+              <a href="home#!/videos/{{vid._id}}">{{vid.video.title}}</a>
+
+              <!-- USER MUST LOGIN TO SEE NON-SAMPLE VIDEOS -->
+             <!--  <a ng-if="user || (!user && (vid._id == '559c47a9e4b09a230e990ab6' || vid._id == '55b6e547e4b01d0a17ce00ca'))" href="home#!/videos/{{vid._id}}">{{vid.video.title}}</a>
+
+              <a ng-if="!user && !(vid._id == '559c47a9e4b09a230e990ab6' || vid._id == '55b6e547e4b01d0a17ce00ca')" ng-click="$rootScope.showSignin = true; $rootScope.showSignup = false; $rootScope.redirectTo = 'home#!/videos/' + vid._id">{{vid.video.title}}</a> -->
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-6">
+    <div class="video-wrapper" >
+      <!-- youtube tags call angular directive that instantiates a YT.Player with current video's id -->
+      <youtube width="640" height="390" videoid="{{video.video.youtube_id}}" videodbid="{{video._id}}"></youtube>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section class='sets-and-tools'>
+
+  <div class="col-6-tools">
+    <div class="problem-sets">
+      <ul>
+        <h3>Practice What You've Learned</h3>
+        <li ng-repeat="problem in video.problemSets">
+          {{ evaluateQuestion($index);}}
+
+          <p class="bonus_quest" ng-if="problem.bonus">BONUS QUESTION</p>
+          <p class="quest_index">{{ question_index + 1}}.</p>
+          <p class="quest"> {{ question }}</p>
+
+          <form ng-if="!radio" name="answerForm">
+            <div ng-init="setVariables($index); evaluateQuestion($index); hint = 0">
+
+
+              <input id="answer_box{{$index}}" class="answer-box" type="text" name="input" ng-model="userAnswer" placeholder="type here" ng-keydown="showAnswer=false" required ng-trim="false" ng-class="{red: userAnswer != answer && showAnswer, green: userAnswer == answer && showAnswer}" ng-pattern="/^-?\d*\.?\d{0,2}$/"/>
+
+
+
+              <i ng-click="toggleCalc()" class="fa fa-calculator"></i>
+              <span>attempts: {{ hint }}</span>
+
+              <span ng-if='answerForm.input.$error.pattern' class='decimal_warning'>Please only enter numbers, one decimal point, and a maximum of two digits after the decimal.</span>
+
+              <div ng-if='!problem.percent' class='user_answer' ng-class="{red_letters: userAnswer != answer && showAnswer, green_letters: userAnswer == answer && showAnswer}"> Your Answer: {{ userAnswer | currency}}</div>
+
+              <div ng-if='problem.percent' class='user_answer' ng-class="{red_letters: userAnswer != answer && showAnswer, green_letters: userAnswer == answer && showAnswer}"> Your Answer: {{ userAnswer}}%</div>
+
+            </div>
+
+            <div class='alerts' role="alert">
+              <span ng-repeat='hint_no in problem.hint' id='hint' class="error hint" ng-show="userAnswer != answer && showAnswer && (hint > $index)">
+                {{ hint_no }}
+              </span>
+              <p class="error" ng-show="userAnswer != answer && showAnswer && hint > problem.hint.length;">
+                The answer is: {{ answer }}, click New Question to try again.
+              </p>
+              <span class="correct" ng-show="userAnswer == answer && showAnswer">
+                Correct
+                <!-- {{answer}} -->
+              </span>
+              <span class='answer-placeholder'>.</span>
+            </div>
+
+            <div class='check-answer-btn-container'>
+              <div class='check-answer-btn' ng-click="showAnswer=true; hint = hint + 1;">Check Answer</div>
+              <div class='check-answer-btn' ng-click="setVariables($index); showAnswer=false; hint = 0;">New Question</div>
+            </div>
+          </form>
+
+
+
+          <form ng-if="radio" name="answerForm">
+            <div ng-repeat="choice in problem.choices | orderBy: alpha">
+              <label class='each_choice'>
+                <input class="radio-btn" type="radio" name="input" ng-click="user_answer[$parent.$index] = choice.alpha; $parent.showAnswer=false" />
+                <span class='radio-key'>{{ choice.alpha }})</span>
+
+                <span class='radio-value'>{{ choice.answer }}</span>
+              </label>
+            </div>
+
+            <!-- <div ng-repeat="choice in problem.choices">
+              <label>
+                <input class="radio-btn" type="radio" name="input" ng-click="user_answer[$parent.$index] = choice.choice; $parent.showAnswer=false" />
+                <span class='radio-key'>{{ choice.choice }})</span>
+
+                <span class='radio-value'>{{ choice.answer }}</span>
+              </label>
+            </div> -->
+
+            <span role="alert">
+              <span class="error" ng-show="user_answer[$index]!=answer && showAnswer">
+                {{ problem.hint }}
+                <!-- {{ answer }} -->
+              </span>
+              <span class="correct" ng-show="user_answer[$index]==answer && showAnswer">
+                Correct!
+              </span>
+              <span class='answer-placeholder'>.</span>
+            </span>
+            <div class='check-answer-btn-container'>
+              <div class='check-answer-btn' ng-click="showAnswer=true;">Check Answer</div>
+            </div>
+          </form>
+        </li>
+
+        <li ng-if="video.video.playlist=='Khan Academy Inflation Series'">The video in this lesson is provided by Khan Academy. All Khan Academy content is available for free at <a href="https://www.khanacademy.org" target="_blank">www.khanacademy.org</a>.</li>
+
+      </ul>
+    </div>
+  </div>
+
+  <div class="col-4-tools">
+
+    <div ng-if="video.video.playlist == 'Khan Academy Inflation Series'" class="research-tool" ng-controller="ResearchToolCtrl">
+
+      <h1>Consumer Price Index Tool</h1>
+
+      <p class='cpi-disclaimer'>Powered by data provided by the Bureau of Labor Statistics</p>
+
+      <form name='toggle-form' class='toggle' ng-init="cpi_toggle='0'">
+
+        <button class='toggle-choice' ng-click="cpi_toggle='0'" ng-class="{tog: cpi_toggle==='0'}">
+          <i class="fa fa-line-chart"></i>
+          <p>Inflation</p>
+        </button>
+
+        <button class='toggle-choice' ng-click="cpi_toggle='1'" ng-class="{tog: cpi_toggle==='1'}">
+
+          <i class="fa fa-arrows-h"></i>
+          <p>Purchasing Power</p>
+        </button>
+        <button class='toggle-choice' ng-click="cpi_toggle='2'" ng-class="{tog: cpi_toggle==='2'}">
+          <i class="fa fa-usd"></i>
+          <p>Real Value</p>
+        </button>
+      </form>
+
+
+      <form class="cpi-form">
+
+        <div class="cpi-text-input animate-show" ng-show="cpi_toggle==='0'">
+          <p class='cpi_real_cost_text'>From</p>
+
+        </div>
+
+        <div class="cpi-text-input animate-show" ng-show="cpi_toggle==='1'">
+          <p class='cpi_real_cost_text'>A dollar from</p>
+        </div>
+
+
+        <div class="cpi-text-input animate-show" ng-show="cpi_toggle==='2'">
+          $ <input type="text" name="cost1" ng-model="base_cost"/>
+          <p class='cpi_real_cost_text'>in</p>
+        </div>
+
+        <div class='base-month-year'>
+          <div class='select-month-year'>
+            <select ng-model='month1' >
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4">May</option>
+              <option value="5">June</option>
+              <option value="6">July</option>
+              <option value="7">August</option>
+              <option value="8">September</option>
+              <option value="9">October</option>
+              <option value="10">November</option>
+              <option value="11">December</option>
+              <option value="12">Average</option>
+            </select>
+
+            <select ng-model='year1'>
+              <option value="1913">1913</option>
+              <option value="1914">1914</option>
+              <option value="1915">1915</option>
+              <option value="1916">1916</option>
+              <option value="1917">1917</option>
+              <option value="1918">1918</option>
+              <option value="1919">1919</option>
+              <option value="1920">1920</option>
+              <option value="1921">1921</option>
+              <option value="1922">1922</option>
+              <option value="1923">1923</option>
+              <option value="1924">1924</option>
+              <option value="1925">1925</option>
+              <option value="1926">1926</option>
+              <option value="1927">1927</option>
+              <option value="1928">1928</option>
+              <option value="1929">1929</option>
+              <option value="1930">1930</option>
+              <option value="1931">1931</option>
+              <option value="1932">1932</option>
+              <option value="1933">1933</option>
+              <option value="1934">1934</option>
+              <option value="1935">1935</option>
+              <option value="1936">1936</option>
+              <option value="1937">1937</option>
+              <option value="1938">1938</option>
+              <option value="1939">1939</option>
+              <option value="1940">1940</option>
+              <option value="1941">1941</option>
+              <option value="1942">1942</option>
+              <option value="1943">1943</option>
+              <option value="1944">1944</option>
+              <option value="1945">1945</option>
+              <option value="1946">1946</option>
+              <option value="1947">1947</option>
+              <option value="1948">1948</option>
+              <option value="1949">1949</option>
+              <option value="1950">1950</option>
+              <option value="1951">1951</option>
+              <option value="1952">1952</option>
+              <option value="1953">1953</option>
+              <option value="1954">1954</option>
+              <option value="1955">1955</option>
+              <option value="1956">1956</option>
+              <option value="1957">1957</option>
+              <option value="1958">1958</option>
+              <option value="1959">1959</option>
+              <option value="1960">1960</option>
+              <option value="1961">1961</option>
+              <option value="1962">1962</option>
+              <option value="1963">1963</option>
+              <option value="1964">1964</option>
+              <option value="1965">1965</option>
+              <option value="1966">1966</option>
+              <option value="1967">1967</option>
+              <option value="1968">1968</option>
+              <option value="1969">1969</option>
+              <option value="1970">1970</option>
+              <option value="1971">1971</option>
+              <option value="1972">1972</option>
+              <option value="1973">1973</option>
+              <option value="1974">1974</option>
+              <option value="1975">1975</option>
+              <option value="1976">1976</option>
+              <option value="1977">1977</option>
+              <option value="1978">1978</option>
+              <option value="1979">1979</option>
+              <option value="1980">1980</option>
+              <option value="1981">1981</option>
+              <option value="1982">1982</option>
+              <option value="1983">1983</option>
+              <option value="1984">1984</option>
+              <option value="1985">1985</option>
+              <option value="1986">1986</option>
+              <option value="1987">1987</option>
+              <option value="1988">1988</option>
+              <option value="1989">1989</option>
+              <option value="1990">1990</option>
+              <option value="1991">1991</option>
+              <option value="1992">1992</option>
+              <option value="1993">1993</option>
+              <option value="1994">1994</option>
+              <option value="1995">1995</option>
+              <option value="1996">1996</option>
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+            </select>
+          </div>
+        </div>
+
+
+      <div class="cpi-answers">
+
+        <div ng-show="cpi_toggle==='0'" class="animate-show">
+          <div class='cpi_real_cost_text'>to</div>
+        </div>
+
+        <div ng-show="cpi_toggle==='1'" class="animate-show">
+
+            <div ng-show="year2 >= year1">
+              <div class='cpi_real_cost_text'>could purchase</div>
+              <div ng-if="(100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100)) >= '0'" class='cpi_real_cost green_letters'>
+                {{ 100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100) | number : fractionSize }}%
+              </div>
+              <div ng-if="(100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100)) < '0'" class='cpi_real_cost red_letters'>
+                {{ -1 * (100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100)) | number : fractionSize }}%
+              </div>
+              <div ng-if="(100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100)) >= '0'" class='cpi_real_cost_text green_letters'>more</div>
+              <div ng-if="(100 - ((cpi_data[year1][month1] / cpi_data[year2][month2]) * 100)) < '0'" class='cpi_real_cost_text red_letters'>less</div>
+              <div class='cpi_real_cost_text'> than a dollar from</div>
+            </div>
+
+            <div ng-show="year2 < year1">
+              <div class='cpi_warning'>
+                Final year must be greater than initial year.
+              </div>
+            </div>
+        </div>
+
+        <div ng-show="cpi_toggle==='2'" class="cpi-text animate-show">
+          <p class='cpi_real_cost_text'>would buy as much as</p>
+          <p class='cpi_real_cost'>{{ (cpi_data[year2][month2] / cpi_data[year1][month1]) * base_cost | currency}}</p>
+          <p class='cpi_real_cost_text'>in</p>
+        </div>
+
+      </div>
+
+
+        <div class='target-month-year'>
+          <div class='select-month-year'>
+            <select  ng-model='month2'>
+              <option value="0">January</option>
+              <option value="1">February</option>
+              <option value="2">March</option>
+              <option value="3">April</option>
+              <option value="4" ng-if='year2!=="2015"'>May</option>
+              <option value="5" ng-if='year2!=="2015"'>June</option>
+              <option value="6" ng-if='year2!=="2015"'>July</option>
+              <option value="7" ng-if='year2!=="2015"'>August</option>
+              <option value="8" ng-if='year2!=="2015"'>September</option>
+              <option value="9" ng-if='year2!=="2015"'>October</option>
+              <option value="10" ng-if='year2!=="2015"'>November</option>
+              <option value="11" ng-if='year2!=="2015"'>December</option>
+              <option value="12" ng-if='year2!=="2015"'>Average</option>
+            </select>
+
+            <select ng-model='year2'>
+              <option value="1913">1913</option>
+              <option value="1914">1914</option>
+              <option value="1915">1915</option>
+              <option value="1916">1916</option>
+              <option value="1917">1917</option>
+              <option value="1918">1918</option>
+              <option value="1919">1919</option>
+              <option value="1920">1920</option>
+              <option value="1921">1921</option>
+              <option value="1922">1922</option>
+              <option value="1923">1923</option>
+              <option value="1924">1924</option>
+              <option value="1925">1925</option>
+              <option value="1926">1926</option>
+              <option value="1927">1927</option>
+              <option value="1928">1928</option>
+              <option value="1929">1929</option>
+              <option value="1930">1930</option>
+              <option value="1931">1931</option>
+              <option value="1932">1932</option>
+              <option value="1933">1933</option>
+              <option value="1934">1934</option>
+              <option value="1935">1935</option>
+              <option value="1936">1936</option>
+              <option value="1937">1937</option>
+              <option value="1938">1938</option>
+              <option value="1939">1939</option>
+              <option value="1940">1940</option>
+              <option value="1941">1941</option>
+              <option value="1942">1942</option>
+              <option value="1943">1943</option>
+              <option value="1944">1944</option>
+              <option value="1945">1945</option>
+              <option value="1946">1946</option>
+              <option value="1947">1947</option>
+              <option value="1948">1948</option>
+              <option value="1949">1949</option>
+              <option value="1950">1950</option>
+              <option value="1951">1951</option>
+              <option value="1952">1952</option>
+              <option value="1953">1953</option>
+              <option value="1954">1954</option>
+              <option value="1955">1955</option>
+              <option value="1956">1956</option>
+              <option value="1957">1957</option>
+              <option value="1958">1958</option>
+              <option value="1959">1959</option>
+              <option value="1960">1960</option>
+              <option value="1961">1961</option>
+              <option value="1962">1962</option>
+              <option value="1963">1963</option>
+              <option value="1964">1964</option>
+              <option value="1965">1965</option>
+              <option value="1966">1966</option>
+              <option value="1967">1967</option>
+              <option value="1968">1968</option>
+              <option value="1969">1969</option>
+              <option value="1970">1970</option>
+              <option value="1971">1971</option>
+              <option value="1972">1972</option>
+              <option value="1973">1973</option>
+              <option value="1974">1974</option>
+              <option value="1975">1975</option>
+              <option value="1976">1976</option>
+              <option value="1977">1977</option>
+              <option value="1978">1978</option>
+              <option value="1979">1979</option>
+              <option value="1980">1980</option>
+              <option value="1981">1981</option>
+              <option value="1982">1982</option>
+              <option value="1983">1983</option>
+              <option value="1984">1984</option>
+              <option value="1985">1985</option>
+              <option value="1986">1986</option>
+              <option value="1987">1987</option>
+              <option value="1988">1988</option>
+              <option value="1989">1989</option>
+              <option value="1990">1990</option>
+              <option value="1991">1991</option>
+              <option value="1992">1992</option>
+              <option value="1993">1993</option>
+              <option value="1994">1994</option>
+              <option value="1995">1995</option>
+              <option value="1996">1996</option>
+              <option value="1997">1997</option>
+              <option value="1998">1998</option>
+              <option value="1999">1999</option>
+              <option value="2000">2000</option>
+              <option value="2001">2001</option>
+              <option value="2002">2002</option>
+              <option value="2003">2003</option>
+              <option value="2004">2004</option>
+              <option value="2005">2005</option>
+              <option value="2006">2006</option>
+              <option value="2007">2007</option>
+              <option value="2008">2008</option>
+              <option value="2009">2009</option>
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014" ng-selected="true">2014</option>
+              <option value="2015">2015</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="cpi-answers">
+
+          <div ng-show="cpi_toggle==='0'" class="animate-show">
+            <div class='cpi_real_cost_text'>the inflation rate was: </div>
+
+
+            <div ng-show="year2 >= year1">
+              <div ng-if="(((cpi_data[year2][month2] - cpi_data[year1][month1]) / cpi_data[year1][month1]) * 100) >= '0'" class='cpi_real_cost green_letters'>
+                {{ ((cpi_data[year2][month2] - cpi_data[year1][month1]) / cpi_data[year1][month1]) * 100 | number : fractionSize}}%
+              </div>
+              <div ng-if="(((cpi_data[year2][month2] - cpi_data[year1][month1]) / cpi_data[year1][month1]) * 100) < '0'" class='cpi_real_cost red_letters'>
+                {{ ((cpi_data[year2][month2] - cpi_data[year1][month1]) / cpi_data[year1][month1]) * 100 | number : fractionSize}}%
+              </div>
+            </div>
+
+            <div ng-show="year2 < year1">
+              <div class='cpi_warning'>
+                Final year must be greater than initial year.
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+    <div ng-if='video.links.length > 0' class="links_container research-links">
+      <ul>
+        <h4>Apply Your Knowledge:</h4>
+        <li class='video-links' ng-repeat="link in video.links" ng-if="link.text != 'Definition:' && link.url_text.length > 0">
+          {{ link.text }} <a href='{{ link.url }}' target="_blank">{{ link.url_text }}</a>
+        </li>
+      </ul>
+    </div>
+
+    <div ng-if='video.links.length > 0' class="links_container glossary-links">
+      <ul>
+        <h4>Glossary:</h4>
+        <li class='video-links' ng-repeat="link in video.links" ng-if="link.text == 'Definition:' && link.url.length <= 1">
+          {{ link.text }} <span>{{ link.url_text }}</span>
+        </li>
+        <li class='video-links' ng-repeat="link in video.links" ng-if="link.text == 'Definition:' && link.url.length > 1">
+          {{ link.text }} <a href='{{ link.url }}' target="_blank">{{ link.url_text }}</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+</section>
+
+
+<div class="calculator-container left-animate-show" ng-show="showCalc==true">
+  <div class='calc-header'>
+    <h3>CALCULATOR</h3><h1 ng-click='toggleCalc()'>X</h1>
+  </div>
+  <div class='calculator'>
+
+    <div class="calc-history">
+      <table class='calc-entries'>
+        <thead>
+          <tr>
+            <td>Entry</td>
+            <td>Answer</td>
+            <td><button type='button' onclick='clearHistory();'><i class="fa fa-trash-o"></i></button></td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+
+    <form name="sci-calc">
+      <table>
+        <tr>
+          <td colspan="5">
+            <input id="latex-display" name="latex" placeholder='type here' value="" size="28" maxlength="25" onkeyup="if (event.keyCode === 13) {if (checkNum(this.form.latex.value)) { compute(this.form) }}">
+          </td>
+        </tr>
+        <tr class='calc-btns'>
+          <td>
+            <button type="button" value="x"superscript="y" onclick="addChar(this.form.latex, '^')">x</button>
+          </td>
+          <td>
+            <input type="button" value="7" onclick="addChar(this.form.latex, '7')">
+          </td>
+          <td>
+            <input type="button" value="8" onclick="addChar(this.form.latex, '8')">
+          </td>
+          <td>
+            <input type="button" value="9" onclick="addChar(this.form.latex, '9')">
+          </td>
+          <td>
+            <input type="button" value="/" onclick="if (checkNum(this.form.latex.value)) { divide(this.form) }">
+          </td>
+        </tr>
+
+        <tr class='calc-btns'>
+          <td>
+            <input type="button" value=" √ " onclick="if (checkNum(this.form.latex.value)) { sqrt(this.form) }">
+          </td>
+          <td>
+            <input type="button" value="4" onclick="addChar(this.form.latex, '4')">
+          </td>
+          <td>
+            <input type="button" value="5" onclick="addChar(this.form.latex, '5')">
+          </td>
+          <td>
+            <input type="button" value="6" onclick="addChar(this.form.latex, '6')">
+          </td>
+          <td>
+            <input type="button" value="*" onclick="addChar(this.form.latex, '*')">
+          </td>
+        </tr>
+        <tr class='calc-btns'>
+          <td>
+
+            <button type="button" value="x"superscript="2" onclick="addChar(this.form.latex, '^2')">x</button>
+          </td>
+          <td>
+            <input type="button" value="1" onclick="addChar(this.form.latex, '1')">
+          </td>
+          <td>
+            <input type="button" value="2" onclick="addChar(this.form.latex, '2')">
+          </td>
+          <td>
+            <input type="button" value="3" onclick="addChar(this.form.latex, '3')">
+          </td>
+          <td>
+            <input type="button" value="-" onclick="addChar(this.form.latex, '-')">
+          </td>
+        </tr>
+        <tr class='calc-btns'>
+          <td class='enter_error'>
+            <button superscript='3' value="sq" onclick="">x</button>
+          </td>
+          <td>
+            <button superscript='3' value="sq" onclick="addChar(this.form.latex, '^3')">x</button>
+          </td>
+          <td>
+            <input type="button" value="0" onclick="addChar(this.form.latex, '0')">
+          </td>
+          <td>
+            <input type="button" value="." onclick="addChar(this.form.latex, '.')">
+          </td>
+          <td>
+            <input type="button" value="+/-" onclick="changeSign(this.form.latex)">
+          </td>
+          <td>
+            <input type="button" value="+" onclick="addChar(this.form.latex, '+')">
+          </td>
+        </tr>
+        <tr class='calc-btns'>
+
+          <td>
+            <input type="button" value="cos" onclick="if (checkNum(this.form.latex.value)) { cos(this.form) }">
+          </td>
+          <td>
+            <input type="button" value="sin" onclick="if (checkNum(this.form.latex.value)) { sin(this.form) }">
+          </td>
+          <td>
+            <input type="button" value="tan" onclick="if (checkNum(this.form.latex.value)) { tan(this.form) }">
+          </td>
+          <td>
+            <input type="button" value="(" onclick="if (checkNum(this.form.latex.value)) { left_bracket(this.form) }">
+          </td>
+          <td>
+            <input type="button" value=")" onclick="if (checkNum(this.form.latex.value)) { right_bracket(this.form) }">
+          </td>
+        </tr>
+        <tr class='calc-btns'>
+          <td>
+            <input type="button" value="clear" onclick="this.form.latex.value = '' ">
+          </td>
+          <td colspan="2">
+            <input name="delete" type="button" value="delete" onclick="deleteChar(this.form.latex)">
+          </td>
+          <td colspan="3">
+            <input type="submit" value="enter" name="enter" onclick="if (checkNum(this.form.latex.value)) { compute(this.form) }">
+          </td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <span class='bottom-close-calc' ng-click='toggleCalc()'>Close</span>
+</div>
+
+<section class="disqus_container group">
+  <dir-disqus disqus-shortname="arbitrageed"
+      disqus-identifier="{{ video.vidUrl }}"
+      disqus-url="http://www.arbitrageed.com/home#!/lessons/{{ video.video.id }}"
+      ready-to-bind="{{ lessonLoaded }}">
+  </dir-disqus>
+</section>
+

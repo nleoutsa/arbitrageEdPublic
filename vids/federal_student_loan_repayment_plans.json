@@ -1,0 +1,173 @@
+{
+    "video": {
+        "id": "federal_student_loan_repayment_plans",
+        "title": "Federal Student Loan Repayment Plans",
+        "youtube_id": "B_sXvhap0X4",
+        "videoUrl": "http://www.youtube.com/embed/B_sXvhap0X4?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/B_sXvhap0X4/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Find out what options exist for federal student loan repayment plans."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "How many repayment options are available to every federal loan borrower?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Seven"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Five"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Three"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "As many as your loan and life circumstances make you eligible for"
+                }
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When can you change your repayment plan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Only when you apply"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Anytime"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Only once throughout the lifetime of your loan"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "a & c"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Which repayment option results in the smallest cumulative payment?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Graduated"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Standard"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Income-Contingent"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "None of the above; all options are the same"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is loan consolidation?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "When you payoff all your loans at once"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "When all your loans have the same repayment plan in effect"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "When you merge all your loans into a single monthly payment"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What are the two repayment period lengths offered?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "10 years and 25 years"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "5 years and 30 years"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "10 years and 30 years"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "15 years and 25 years"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Repayment Plans",
+            "url": "https://studentaid.ed.gov/sa/repay-loans/understand/plans"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Repayment Estimator",
+            "url": "https://studentloans.gov/myDirectLoan/mobile/repayment/repaymentEstimator.action"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Poverty Guidelines for Determining Discretionary Income",
+            "url": "http://www.aspe.hhs.gov/poverty/index.cfm"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Discretionary Income [studentaid.gov]: For Income-Based Repayment and Pay As You Earn, discretionary income is the difference between your income and 150 percent of the poverty guideline for your family size and state of residence. For Income-Contingent Repayment, discretionary income is the difference between your income and 100 percent of the poverty guideline for your family size and state of residence. The poverty guidelines are maintained by the U.S. Department of Health and Human Services and are available at www.aspe.hhs.gov/poverty.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Adjusted Gross Income [studentaid.gov]: Your or your family's wages, salaries, interest, dividends, etc., minus certain deductions from income as reported on a federal income tax return.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Consolidation [studentaid.gov]: The process of combining one or more loans into a single new loan.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Refinance [Google]: Finance (something) again, typically with a new loan at a lower rate of interest.",
+            "url": ""
+        }
+    ]
+}

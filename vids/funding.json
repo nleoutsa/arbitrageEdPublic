@@ -1,0 +1,110 @@
+{
+    "video": {
+        "id": "funding",
+        "title": "Funding",
+        "videoUrl": "https://www.youtube.com/embed/fHizMRgtImg",
+        "videoThumbnail": "http://img.youtube.com/vi/fHizMRgtImg/2.jpg",
+        "playlist": "Business Finances",
+        "description": "How companies raise money."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Why would a company seek more money than they have from their profits?",
+            "choices": [
+                {"alpha":"a","answer":"To expand faster"},
+                {"alpha":"b","answer":"To have more money in case of emergency"},
+                {"alpha":"c","answer":"To cover expenses"},
+                {"alpha":"d","answer":"All of the above"}
+
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How can a company raise money?",
+            "choices": [
+                {"alpha":"a","answer":"Save profits"},
+                {"alpha":"b","answer":"Contract a loan"},
+                {"alpha":"c","answer":"Sell equity"},
+                {"alpha":"d","answer":"All of the above"},
+                {"alpha":"e","answer":"None of the above"}
+            ],
+            "answer": "d",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Types of funding:",
+            "url_text": "Startup Stages (Every new business is a Startup)",
+            "url": "http://fundersandfounders.com/how-funding-works-splitting-equity/"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Private Equity",
+            "url": "https://en.wikipedia.org/?title=Private_equity"
+        },
+        {
+            "text": "Types of private equity funding:",
+            "url_text": "Venture Capital Fund",
+            "url": "https://en.wikipedia.org/wiki/Venture_capital#United_States"
+        },
+        {
+            "text": "Types of private equity funding:",
+            "url_text": "Angel Investor",
+            "url": "https://en.wikipedia.org/wiki/Angel_investor"
+        },
+        {
+            "text": "Types of private equity funding:",
+            "url_text": "Private Equity Firm",
+            "url": "https://en.wikipedia.org/wiki/Private_equity_firm"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Loan",
+            "url": "http://www.investopedia.com/terms/l/loan.asp"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Public Grant",
+            "url": "http://www.grants.gov/web/grants/learn-grants/grants-101.html"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Grant",
+            "url": "http://www.investopedia.com/terms/g/government-grant.asp"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Private Grant",
+            "url": "https://en.wikipedia.org/wiki/Grant_(money)"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Initial Public Offering (IPO)",
+            "url": "http://www.arbitrageed.com/home#/lessons/initial-public-offering"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Crowdfunding",
+            "url": "https://www.fundable.com/crowdfunding101/types-of-crowdfunding"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Factoring (AKA Invoice Advances)",
+            "url": "http://www.entrepreneur.com/encyclopedia/factoring"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Friends and Family",
+            "url": "http://www.angelblog.net/Startup_Funding_the_Friends_and_Family_Round.html"
+        },
+        {
+            "text": "Types of funding:",
+            "url_text": "Contests like MassChallenge",
+            "url": "http://masschallenge.org/"
+        }
+    ]
+}

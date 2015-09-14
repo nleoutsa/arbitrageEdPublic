@@ -1,0 +1,53 @@
+{
+    "video": {
+        "id": "calculating-real-return-in-last-year-dollars",
+        "title": "Calculating Real Return in Last Year Dollars",
+        "videoUrl": "https://www.youtube.com/embed/GiB9Mkgkrek",
+        "videoThumbnail": "http://img.youtube.com/vi/GiB9Mkgkrek/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Calculating real return in last year dollars."
+    },
+    "problemSets": [
+        {
+            "radio": false,
+            "question": "You’ve invested _x in _a, _A and your return on the investment is _y in _b, _B. Assuming there was an inflation rate of _z, what is the value of _y in _a, _A money?",
+            "variables": {"_x":[10000,20000,"i","c"],"_y":[21000,30000,"i","c"],"_z":[1,6,"f", "p"],"_a":[1,12,"i", "y"],"_A":[1950,1989,"i", "y"],"_b":[1,12,"i", "y"],"_B":[1990,2015,"i", "y"]},
+            "answer": "_y / (1 + _z)",
+            "hint": ["\\( Value \\: of \\: later \\: date \\: on \\: the \\: earlier \\: date \\: = \\: {(Value \\: of \\: later \\: date) \\over (1 \\: + \\: Inflation \\: rate)} \\)"]
+        },
+        {
+            "radio": false,
+            "question": "You’ve invested _x in _a, _A and your return on the investment is _y in _b, _B. Assuming there was an inflation rate of _z, what is the Real return on your investment on _b, _B?",
+            "variables": {"_x":[10000,20000,"i","c"],"_y":[21000,30000,"i","c"],"_z":[1,6,"f", "p"],"_a":[1,12,"i", "y"],"_A":[1950,1989,"i", "y"],"_b":[1,12,"i", "y"],"_B":[1990,2015,"i", "y"]},
+            "answer": "_x * (1 + _y)",
+            "hint": [
+                "\\( Value \\: of \\: later \\: date \\: on \\: the \\: earlier \\: date \\: = \\: {(Value \\: of \\: later \\: date) \\over (1 \\: + \\: Inflation \\: rate)} \\)",
+                "\\( Real \\: Rate \\: of \\: Return \\: = \\: {(1 \\: + \\: Nominal \\: Rate) \\over (1 \\: + \\: Inflation \\: Rate)} - 1 \\)"
+            ]
+        },
+        {
+            "radio": true,
+            "question": "What is the difference between calculating last years money in today’s money, and today’s money in last years money?",
+            "choices": [
+                {"alpha":"a","answer": "To solve for last years money in today’s money, you multiply last years money by (1 + inflation rate). Today’s money in last years money valuation is calculated by dividing today’s money by (1 + Inflation Rate)."},
+                {"alpha":"b","answer": "To solve for last years money in today’s money, you divide last years money by (1 + inflation rate). Today’s money in last years money valuation is calculated by multiplying today's money by (1 + Inflation Rate)."}
+
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the difference between a Nominal Rate of Return and Real Rate of Return?",
+            "choices": [
+                {"alpha":"a","answer": "The Real Rate of Return ignores the effects from changes to purchasing power (i.e. inflation), while Nominal Rate of Return includes those effects in its the calculation."},
+                {"alpha":"b","answer": "The Nominal Rate of Return ignores the effects from changes to purchasing power (i.e. inflation), while Real Rate of Return includes those effects in its the calculation."}
+
+            ],
+            "answer": "b",
+            "hint": "Nominal return does not take into account inflation, whereas Real return does."
+        }
+    ],
+    "links": [
+    ]
+}

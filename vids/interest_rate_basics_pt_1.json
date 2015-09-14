@@ -1,0 +1,133 @@
+{
+    "video": {
+        "id": "interest_rate_basics_pt_1",
+        "title": "Interest Rate Basics Pt.1",
+        "youtube_id": "LbZD3iKb2EU",
+        "videoUrl": "http://www.youtube.com/embed/LbZD3iKb2EU?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/LbZD3iKb2EU/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn about the interest rates from our two part video. (Part 1 of 2)"
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "True or False: Interest is the cost of borrowing money expressed as a percentage of the principal.",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "True"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "False"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is creditworthiness?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The lender’s likeliness to extend a loan"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The borrower’s likeliness to repay a loan"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The supply of money available in the general economy, as set by the central bank"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "The average credit card debt an individual owes"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "The total credit card debt an individual owes"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How does creditworthiness affect the interest rates on your loans?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "High creditworthiness lowers rates"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Low creditworthiness lowers rates"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "High creditworthiness raises rates"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Low creditworthiness raises rates"
+                },
+                {
+                    "alpha": "e",
+                    "answer": "a & b"
+                },
+                {
+                    "alpha": "f",
+                    "answer": "c & d"
+                },
+                {
+                    "alpha": "g",
+                    "answer": "b & c"
+                },
+                {
+                    "alpha": "h",
+                    "answer": "a & d"
+                },
+                {
+                    "alpha": "i",
+                    "answer": "None of the options; creditworthiness has no effect on interest rates."
+                }
+            ],
+            "answer": "f",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Interest",
+            "url": "http://www.investopedia.com/terms/i/interest.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Interest Rate",
+            "url": "http://www.investorwords.com/2539/interest_rate.html"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Default [Google]: Failure to fulfill an obligation, especially to repay a loan or appear in a court of law.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Creditworthiness",
+            "url": "http://financial-dictionary.thefreedictionary.com/Creditworthiness"
+        }
+    ]
+}

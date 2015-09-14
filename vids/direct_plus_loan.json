@@ -1,0 +1,212 @@
+{
+    "video": {
+        "id": "direct_plus_loan",
+        "title": "Direct Plus Loan",
+        "youtube_id": "yw5bBsRMqFk",
+        "videoUrl": "http://www.youtube.com/embed/yw5bBsRMqFk?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/yw5bBsRMqFk/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn about the government offered Direct PLUS student loan and see if it's for you."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Who is not eligible for a Direct PLUS Loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Undergraduate Students"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Parents of dependant student"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Graduate students"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Professional degree students"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "True or False: Applicants are not affected by their creditworthiness.",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "True"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "False"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the borrowing limit?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Cost of attendance minus additional financial aid received"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Cost of attendance"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "$50,000"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "No limit"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "When does the repayment period begin?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "One day after the final disbursement is made"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "Same day the final disbursement is made"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "One day after the first disbursement is made"
+                },
+                {
+                    "alpha": "d",
+                    "answer": "Same day the first disbursement is made"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What happens to your interest when you defer payments?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "It’s accrues and is capitalized (i.e. added to your principal)"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The government pays for it"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The payments are postponed, and when the deferral ends you pay the required amount prior to deferring"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "True or False: Direct PLUS loans are subsidized.",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "True"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "False"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        }
+    ],
+
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Basic Eligibility Criteria",
+            "url": ""
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Determine Dependency",
+            "url": ""
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Deferment Eligibility",
+            "url": ""
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "PLUS Loan",
+            "url": ""
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Repayment Estimator",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Unsubsidized Loan [stidentaid.gov]: A loan for which the borrower is fully responsible for paying the interest regardless of the loan status. Interest on unsubsidized loans accrues from the date of disbursement and continues throughout the life of the loan.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Grace Period [StudentAid.Gov]: A period of time after borrowers graduate, leave school, or drop below half-time enrollment where they are not required to make payments on certain federal student loans. Some federal student loans will accrue interest during the grace period, and if the interest is unpaid, it will be added to the principal balance of the loan when the repayment period begins.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Financial Need [StudentAid.Gov]: The difference between the cost of attendance (COA) at a school and your Expected Family Contribution (EFC).  While COA varies from school to school, your EFC does not change based on the school you attend. ",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Enrollment Status [StudentAid.Gov]: Reported by the school the student attended, indicates whether the student is (or was) full-time, three-quarter time, half-time, less than half-time, withdrawn, graduated, etc.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Deferment [StudentAid.Gov]: A postponement of payment on a loan that is allowed under certain conditions and during which interest does not accrue on Direct Subsidized Loans, Subsidized Federal Stafford Loans, and Federal Perkins Loans. All other federal student loans that are deferred will continue to accrue interest. Any unpaid interest that accrued during the deferment period may be added to the principal balance (capitalized) of the loan(s).",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Principal [studentaid.gov]: The total sum of money borrowed plus any interest that has been capitalized.",
+            "url": ""
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Credit Score [Google]: A number assigned to a person that indicates to lenders their capacity to repay a loan.",
+            "url": ""
+        }
+    ]
+}

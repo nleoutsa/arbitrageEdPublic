@@ -1,0 +1,47 @@
+{
+    "video": {
+        "id": "velocity-of-money-rather-than-quantity-driving-prices",
+        "title": "Velocity of Money Rather than Quantity Driving Prices",
+        "videoUrl": "https://www.youtube.com/embed/stfSnPaaK04",
+        "videoThumbnail": "http://img.youtube.com/vi/stfSnPaaK04/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "How velocity of money can drive price increases."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What does “high velocity of money” represent?",
+            "choices": [
+                {"alpha":"a","answer": "Instantaneous transfer of money."},
+                {"alpha":"b","answer": "Movement of large amounts of money."},
+                {"alpha":"c","answer": "A large number of transactions (i.e. money moves quickly)."}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the difference between price changes driven by quantity of money, and those driven by velocity of money?",
+            "choices": [
+                {"alpha":"a","answer": "Quantity refers to the price changes caused by the amount of demand for money, while velocity refers to price changes caused by many transactions."},
+                {"alpha":"b","answer": "Quantity refers to the price changes caused by the amount of money in circulation, while velocity refers to price changes caused by many transactions."},
+                {"alpha":"c","answer": "Quantity refers to the price changes caused by the amount of money in circulation, while velocity refers to price changes caused by the movement of large amounts of money."}
+
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Definition:",
+            "url_text": "Velocity of Money",
+            "url": "http://www.investopedia.com/terms/v/velocity.asp"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Quantity Theory of Money",
+            "url": "http://www.investopedia.com/terms/q/quantity_theory_of_money.asp"
+        }
+    ]
+}

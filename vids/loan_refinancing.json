@@ -1,0 +1,122 @@
+{
+    "video": {
+        "id": "loan_refinancing",
+        "title": "Loan Refinancing",
+        "youtube_id": "6XWBzGHuaxs",
+        "videoUrl": "http://www.youtube.com/embed/6XWBzGHuaxs?enablejsapi=1&origin=http://localhost:8080",
+        "videoThumbnail": "http://img.youtube.com/vi/6XWBzGHuaxs/2.jpg",
+        "playlist": "Student Loans",
+        "description": "Learn about Loan Refinancing: how it works, what to be aware of, etc."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "What happens when you refinance a loan?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "A method for obtaining money to pay off a loan"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "When you renegotiate your loans’ terms"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "When you replace an existing loan with a new one"
+                }
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What are closing costs?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "Fees paid to the new lender for refinancing"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The costs of ending your loan"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "Fees owed for defaulting on your loan"
+                }
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "What is the payback period?",
+            "choices": [
+                {
+                    "alpha": "a",
+                    "answer": "The time remaining until your loan is fully repaid"
+                },
+                {
+                    "alpha": "b",
+                    "answer": "The length of time to recover closing costs"
+                },
+                {
+                    "alpha": "c",
+                    "answer": "The amount of time it takes from your receipt of the loan to the last payment"
+                }
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": false,
+            "question": "Let’s imagine you’re offered terms for refinancing your one and only loan. If closing costs are _x and you save _y per month, what is your payback period?",
+            "variables": {
+                "_x": [
+                    10000,
+                    20000,
+                    "i",
+                    "c"
+                ],
+                "_y": [
+                    500,
+                    1000,
+                    "i",
+                    "c"
+                ]
+            },
+            "answer": "Math.round(_x / _y)",
+            "hint": [
+                "This answer is in terms of Months.",
+                "Payback Period = $X / $Y"
+            ]
+        }
+    ],
+    "links": [
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "More on Refinancing & Lenders Who Can Do It",
+            "url": "http://www.magnifymoney.com/blog/college-students-and-recent-grads/refinancing-a-student-loan1091646352"
+        },
+        {
+            "type": "research",
+            "text": "Research:",
+            "url_text": "Private Loan Repayment Calculator",
+            "url": "http://www.bankrate.com/calculators/home-equity/loan-re-payment-calculator.aspx"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Payback Period",
+            "url": "http://www.investopedia.com/terms/p/paybackperiod.asp"
+        },
+        {
+            "type": "definition",
+            "text": "Definition:",
+            "url_text": "Refinance [Google]: Finance (something) again, typically with a new loan at a lower rate of interest.",
+            "url": ""
+        }
+    ]
+}

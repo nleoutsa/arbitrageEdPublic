@@ -1,0 +1,63 @@
+{
+    "video": {
+        "id": "inflation-data",
+        "title": "Inflation Data",
+        "videoUrl": "https://www.youtube.com/embed/DK1lCc9b7bg",
+        "videoThumbnail": "http://img.youtube.com/vi/DK1lCc9b7bg/2.jpg",
+        "playlist": "Khan Academy Inflation Series",
+        "description": "Looking at actual sequential and year-over-year inflation data."
+    },
+    "problemSets": [
+        {
+            "radio": true,
+            "question": "Does the United States Bureau of Labour Statistics publish Consumer Price Index (CPI) reports every month?",
+            "choices": [
+                {"alpha":"a","answer": "Yes."},
+                {"alpha":"b","answer": "No, only once a year."},
+                {"alpha":"c","answer": "Yes, and bi-weekly."}
+
+            ],
+            "answer": "a",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "How does subtracting food and energy from the basket of goods and services benefit accuracy?",
+            "choices": [
+                {"alpha":"a","answer": "It doesn’t benefit accuracy."},
+                {"alpha":"b","answer": "Food and energy prices are nearly consistent year-over-year which decreases the inflation."},
+                {"alpha":"c","answer": "Food and energy fluctuate more than other items (in the basket), subtracting them reflects more consistent information."}
+            ],
+            "answer": "c",
+            "hint": "Incorrect"
+        },
+        {
+            "radio": true,
+            "question": "Can using the Consumer Price Index (CPI) information help you with making smarter investments?",
+            "choices": [
+                {"alpha":"a","answer": "No, because it informs you of changes that occurred in the past which doesn’t help you understand the future."},
+                {"alpha":"b","answer": "Yes, because you can be informed of how certain industries are growing."},
+                {"alpha":"c","answer": "No, because the information isn’t accurate enough."}
+            ],
+            "answer": "b",
+            "hint": "Incorrect"
+        }
+    ],
+    "links": [
+        {
+            "text": "Keep learning! Review the most recent CPI report to attain an understanding of recent changes to the United States economy:",
+            "url_text": "US Bureau of Labor Statistics CPI Reports",
+            "url": "http://www.bls.gov/cpi/cpi_dr.htm"
+        },
+        {
+            "text": "Learn about CPI Methodology:",
+            "url_text": "US Bureau of Labor Statistics CPI Methodology",
+            "url": "http://www.bls.gov/cpi/cpi_methods.htm"
+        },
+        {
+            "text": "Definition:",
+            "url_text": "Consumer Price Index (CPI)",
+            "url": "http://www.investopedia.com/terms/c/consumerpriceindex.asp"
+        }
+    ]
+}
